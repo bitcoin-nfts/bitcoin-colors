@@ -1,13 +1,23 @@
 [project]
-name = "cbtc"
+name = "bitcoin-colors"
 authors = []
 description = ""
 telemetry = false
 
 [[project.requirements]]
 contract_id = "SP3FBR2AGK5H9QBDH3EEN6DF8EK8JY7RX8QJ5SVTE.sip-010-trait-ft-standard"
+
+[contracts.bitcoin-colors]
+path = "contracts/bitcoin-colors.clar"
+
 [contracts.cbtc-token]
 path = "contracts/cbtc-token.clar"
+
+[contracts.commission-trait]
+path = "contracts/traits/commission-trait.clar"
+
+[contracts.nft-trait]
+path = "contracts/traits/nft-trait.clar"
 
 [repl]
 costs_version = 2
