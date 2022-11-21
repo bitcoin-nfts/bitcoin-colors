@@ -1,6 +1,10 @@
-# Mint Runner
+# Bitcoin Colors
 
-This repo contains a chainhook implementation that will monitor a BTC address, and after receiving a transaction, mint a corresponding NFT on Stacks.
+Welcome to the Bitcoin NFTs proof of concept - Bitcoin Colors!
+
+This repo contains the contracts, tests, and a sample chainhook implementation.
+
+The chainhook will monitor a BTC address and after receiving a transaction, perform a corresponding mint on Stacks.
 
 🚧 WIP 🚧
 
