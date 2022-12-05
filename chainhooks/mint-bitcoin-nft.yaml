@@ -9,13 +9,13 @@ networks:
     predicate:
       scope: outputs
       p2pkh:
-        # how is this address derived?
-        # how does this address transition between networks?
         equals: mr1iPkD9N3RJZZxXRk7xF9d36gffa6exNC
     action:
       http:
         # url: 'http://localhost:3000/api/v1/wrapBtc'
         url: 'http://localhost:3000/api/v1/mintBitcoinNft'
         method: POST
-        # what's this string?
+        # self-generated when chainhook is registered (pass a secret)
+        # how to know your chainhook is talking to you
+        # store as a secret in production
         authorization-header: Bearer cn389ncoiwuencr

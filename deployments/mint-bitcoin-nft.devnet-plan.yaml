@@ -9,8 +9,6 @@ plan:
     - id: 0
       transactions:
         - btc-transfer:
-            # how is this address derived?
-            # how does this address transition between networks?
             expected-sender: mjSrB3wS4xab3kYqFktwBzfTdPg367ZJ2d
             recipient: mr1iPkD9N3RJZZxXRk7xF9d36gffa6exNC
             sats-amount: 100000000
