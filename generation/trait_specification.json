@@ -1,0 +1,65 @@
+[
+  {
+    "trait_type": "Color 1",
+    "value": "Blue",
+    "weight": 0.2
+  },
+  {
+    "trait_type": "Color 1",
+    "value": "Red",
+    "weight": 0.5
+  },
+  {
+    "trait_type": "Color 1",
+    "value": "Green",
+    "weight": 0.3
+  },
+
+  {
+    "trait_type": "Color 2",
+    "value": "Blue",
+    "weight": 0.1
+  },
+  {
+    "trait_type": "Color 2",
+    "value": "Red",
+    "weight": 0.1
+  },
+  {
+    "trait_type": "Color 2",
+    "value": "Green",
+    "weight": 0.8
+  },
+
+  {
+    "trait_type": "Color 3",
+    "value": "Blue",
+    "weight": 0.6
+  },
+  {
+    "trait_type": "Color 3",
+    "value": "Red",
+    "weight": 0.2
+  },
+  {
+    "trait_type": "Color 3",
+    "value": "Green",
+    "weight": 0.2
+  },
+
+  {
+    "trait_type": "Color 4",
+    "value": "Maroon",
+    "weight": 0.7
+  },
+  {
+    "trait_type": "Color 4",
+    "value": "Turquoise",
+    "weight": 0.1
+  },
+  {
+    "trait_type": "Color 4",
+    "value": "Chartreuse",
+    "weight": 0.2
+  }
+]
