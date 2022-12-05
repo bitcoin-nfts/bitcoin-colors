@@ -172,11 +172,11 @@ def test(gen):
       
 def main():
   spec = json.loads(open('trait_specification.json').read())
-  gen = TraitGenerator(spec)
+  gen = TraitGenerator(spec, verbose=False)
   if sys.argv[1] == 'test':
     test(gen)
   else:
-    gen.generate(sys.argv[1])
+    print(json.dumps(gen.generate(sys.argv[1]), indent=2))
       
 if __name__ == '__main__':
   main()
