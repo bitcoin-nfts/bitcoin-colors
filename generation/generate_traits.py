@@ -128,19 +128,22 @@ def flatten(s):
    return [item for sublist in s for item in sublist]
 
 def test(gen):
-  # Generate 9,000 Bitcoin addresses
-  #   Use 3,000 public addresses (e.g., 1Bu6YxH64nfvhdDsYNEP8PftoBMqgusdPS)
-  #   Use 3,000 P2WSH addresses (e.g., bc1qdveuf0egtfdnd2fnsp0lzfukn2e58czf8323ky6xt8ydew4ecfcqv3ettx)
-  #   Use 3,000 P2WPKH addresses (e.g., bc1q2jxe5azr6zmhk3258av7ul6cqtu4eu4mps8f4p)
+  # Generate 12,000 Bitcoin addresses
+  #   Use 3,000 P2PKH Legacy addresses (e.g., 1Bu6YxH64nfvhdDsYNEP8PftoBMqgusdPS)
+  #   Use 3,000 P2SH-P2WSH Wrapped Segwit addresses (e.g., 3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy)
+  #   Use 3,000 P2WSH Native Segwit addresses (e.g., bc1qdveuf0egtfdnd2fnsp0lzfukn2e58czf8323ky6xt8ydew4ecfcqv3ettx)
+  #   Use 3,000 P2WPKH Native Segwit addresses (e.g., bc1q2jxe5azr6zmhk3258av7ul6cqtu4eu4mps8f4p)
   gen.verbose = False
   ws = [Wallet() for _ in tqdm(list(range(3000)))]
-  p_addr = [w.address.mainnet.pubaddr1 for w in ws]
+  p2pkh_addr = [w.address.mainnet.pubaddr1 for w in ws]
+  p2sh_p2wsh_addr = [w.address.mainnet.pubaddr3 for w in ws]
   p2wsh_addr = [w.address.mainnet.pubaddrbc1_P2WPKH for w in ws]
   p2wpkh_addr = [w.address.mainnet.pubaddrbc1_P2WSH for w in ws]
-  g1 = [gen.generate(a) for a in tqdm(p_addr)]
-  g2 = [gen.generate(a) for a in tqdm(p2wsh_addr)]
-  g3 = [gen.generate(a) for a in tqdm(p2wpkh_addr)]
-  g = flatten(g1 + g2 + g3)
+  g1 = [gen.generate(a) for a in tqdm(p2pkh_addr)]
+  g2 = [gen.generate(a) for a in tqdm(p2sh_p2wsh_addr)]
+  g3 = [gen.generate(a) for a in tqdm(p2wsh_addr)]
+  g4 = [gen.generate(a) for a in tqdm(p2wpkh_addr)]
+  g = flatten(g1 + g2 + g3 + g4)
 
   df = pd.DataFrame(g)
   s_df = gen.trait_specification
