@@ -9,7 +9,7 @@ from tqdm import tqdm
 Script usage summary:
 
 python generate_traits.py test
-  - Returns a test using 9,000 Bitcoin addresses of
+  - Returns a test using 8,000 Bitcoin addresses of
       different types to ensure that distributions of
       traits match the provided specification.
 
