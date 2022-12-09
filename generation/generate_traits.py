@@ -9,7 +9,7 @@ from tqdm import tqdm
 Script usage summary:
 
 python generate_traits.py test
-  - Returns a test using 9,000 Bitcoin addresses of
+  - Returns a test using 8,000 Bitcoin addresses of
       different types to ensure that distributions of
       traits match the provided specification.
 
@@ -58,6 +58,8 @@ class TraitGenerator():
   def generate(self, raw_addr):
     addr = self.hash_address(raw_addr)
     if self.verbose:
+      print('-------------------------')
+      print(f'Address: {raw_addr}')
       print(f'Address hash: {addr.hex()}')
 
     df = self.trait_specification
@@ -128,13 +130,13 @@ def flatten(s):
    return [item for sublist in s for item in sublist]
 
 def test(gen):
-  # Generate 12,000 Bitcoin addresses
-  #   Use 3,000 P2PKH Legacy addresses (e.g., 1Bu6YxH64nfvhdDsYNEP8PftoBMqgusdPS)
-  #   Use 3,000 P2SH-P2WSH Wrapped Segwit addresses (e.g., 3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy)
-  #   Use 3,000 P2WSH Native Segwit addresses (e.g., bc1qdveuf0egtfdnd2fnsp0lzfukn2e58czf8323ky6xt8ydew4ecfcqv3ettx)
-  #   Use 3,000 P2WPKH Native Segwit addresses (e.g., bc1q2jxe5azr6zmhk3258av7ul6cqtu4eu4mps8f4p)
+  # Generate 8,000 Bitcoin addresses
+  #   Use 2,000 P2PKH Legacy addresses (e.g., 1Bu6YxH64nfvhdDsYNEP8PftoBMqgusdPS)
+  #   Use 2,000 P2SH-P2WSH Wrapped Segwit addresses (e.g., 3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy)
+  #   Use 2,000 P2WSH Native Segwit addresses (e.g., bc1qdveuf0egtfdnd2fnsp0lzfukn2e58czf8323ky6xt8ydew4ecfcqv3ettx)
+  #   Use 2,000 P2WPKH Native Segwit addresses (e.g., bc1q2jxe5azr6zmhk3258av7ul6cqtu4eu4mps8f4p)
   gen.verbose = False
-  ws = [Wallet() for _ in tqdm(list(range(3000)))]
+  ws = [Wallet() for _ in tqdm(list(range(2000)))]
   p2pkh_addr = [w.address.mainnet.pubaddr1 for w in ws]
   p2sh_p2wsh_addr = [w.address.mainnet.pubaddr3 for w in ws]
   p2wsh_addr = [w.address.mainnet.pubaddrbc1_P2WPKH for w in ws]

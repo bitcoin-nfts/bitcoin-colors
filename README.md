@@ -8,6 +8,28 @@ The chainhook will monitor a BTC address and after receiving a transaction, perf
 
 🚧 WIP 🚧
 
+## Trait Generation Algorithm
+
+Each trait in the [generation/trait_specification.json](./generation/trait_specification.json) file consists of a name, and all the keys with that name represent the values + weight.
+
+```json
+{
+  "trait_type": "Q1 Background",
+  "value": "Orange",
+  "weight": 0.13
+},
+```
+
+The address is hashed via SHA-1 then the string is split based on the number of traits.
+
+```python
+def hash_address(self, addr):
+  H = hashlib.sha1(bytes(addr, 'UTF-8'))
+  return H.digest()
+```
+
+Each string is then converted into an array of probabilities, which then determines the resulting traits for the address.
+
 ## Configuration Overview
 
 This repository consists of the following components:
