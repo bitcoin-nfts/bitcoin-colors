@@ -16,9 +16,10 @@ plan:
             cost: 8400
             path: ".cache/requirements/SP3FBR2AGK5H9QBDH3EEN6DF8EK8JY7RX8QJ5SVTE.sip-010-trait-ft-standard.clar"
         - contract-publish:
-            contract-name: cbtc-token
+            contract-name: bitcoin-colors # cbtc-token
+            # this address comes from devnet.toml
             expected-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             cost: 13030
-            path: contracts/cbtc-token.clar
+            path: contracts/bitcoin-colors.clar
             anchor-block-only: true
             clarity-version: 1
