@@ -20,11 +20,11 @@ Each trait in the [generation/trait_specification.json](./generation/trait_speci
 },
 ```
 
-The address is hashed via SHA-1 then the string is split based on the number of traits.
+The address is hashed via SHA-512 then the string is split based on the number of traits.
 
 ```python
 def hash_address(self, addr):
-  H = hashlib.sha1(bytes(addr, 'UTF-8'))
+  H = hashlib.sha512(bytes(addr, 'UTF-8'))
   return H.digest()
 ```
 
