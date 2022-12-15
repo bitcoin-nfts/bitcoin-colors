@@ -123,7 +123,7 @@ class TraitGenerator():
   output: bytes
   '''
   def hash_address(self, addr):
-    H = hashlib.sha256(bytes(addr, 'UTF-8'))
+    H = hashlib.sha512(bytes(addr, 'UTF-8'))
     return H.digest()
 
 def flatten(s):
