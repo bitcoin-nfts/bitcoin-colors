@@ -26,12 +26,14 @@ class TraitGenerator():
   which specifies the trait types and values that we expect to generate.
 
   This should be an object which looks like, for example:
-  [ { "trait_type": "Eyes", "value": "Laser Eyes", "weight": 0.01 },
-    { "trait_type": "Eyes", "value": "Normal Eyes", "weight": 0.79 },
-    { "trait_type": "Eyes", "value": "Glasses", "weight": 0.20 },
-    { "trait_type": "Shirt Color", "value": "Red", "weight": 0.30 },
-    { "trait_type": "Shirt Color", "value": "Green", "weight": 0.40 },
-    { "trait_type": "Shirt Color", "value": "Blue", "weight": 0.30 } ]
+  { "specification":
+    [ { "trait_type": "Eyes", "value": "Laser Eyes", "weight": 0.01 },
+      { "trait_type": "Eyes", "value": "Normal Eyes", "weight": 0.79 },
+      { "trait_type": "Eyes", "value": "Glasses", "weight": 0.20 },
+      { "trait_type": "Shirt Color", "value": "Red", "weight": 0.30 },
+      { "trait_type": "Shirt Color", "value": "Green", "weight": 0.40 },
+      { "trait_type": "Shirt Color", "value": "Blue", "weight": 0.30 } ]
+  }
 
   The final output of the generation, for a single address, will be something like: 
   [ { "trait_type": "Eyes", "value": "Laser Eyes" },
@@ -40,9 +42,23 @@ class TraitGenerator():
   Lower weights will be generated less frequently, in proportion to their value relative to
   the other weights in the same trait_type. For example, laser eyes is expected to appear in 
   1% of the samples, and a red shirt color in 30% of the samples.
+
+  You can also add exclusions to the traits, to prevent one trait from being added to another.
+  Note this WILL affect the distributions of the outputs and may cause them to be shifted from
+  the intended specification.
+    { "trait_type": "Eyes", "value": "Glasses", "weight": 0.20,
+      "exclusions": { "trait_type": "Q2 Background", "value": "Orange" } },
+
+  If you want to be explicit about how many characters correspond to which traits, these can be
+  explicitly specified in the definition.
+    { "character_allocation": { "Q1 Background": 4, "Q2 Background": 4,
+                                "Q3 Background": 4, "Q4 Background": 4 },
+    "specification": [ ... ] }
   '''
   def __init__(self, trait_specification, verbose=True):
-    self.trait_specification = pd.DataFrame(trait_specification)
+    self.trait_specification = pd.DataFrame(trait_specification['specification'])
+    
+    self.character_allocation = trait_specification.get('character_allocation') 
     self.verbose = verbose
 
   '''
@@ -66,24 +82,40 @@ class TraitGenerator():
     traits = sorted(df['trait_type'].unique())
 
     # naively spilt the string length by the number of traits 
-    chunk_length = len(addr) // len(traits)
+    if self.character_allocation:
+      chunk_lengths = []
+      for trait in traits:
+        chunk_lengths.append(self.character_allocation[trait])
+    else:
+      chunk_lengths = [len(addr) // len(traits) for _ in range(len(traits))]
+
+    if sum(chunk_lengths) > len(raw_addr):
+      raise ValueError(f'Input string is too short; needs at least {sum(chunk_lengths)} characters')
 
     # convert string into array of "probabilities"
     ps = []
-    for i, trait in enumerate(traits):
-      ss = addr[i * chunk_length : (i + 1) * chunk_length]
+    curr = 0
+    for trait, chunk_size in zip(traits, chunk_lengths):
+      ss = addr[curr : curr + chunk_size]
       p = self.get_probability(ss)
       if p is None: 
         return
       if self.verbose:
         print(f'Substring {i}: {ss.hex()} - {p}')
+      curr += chunk_size
       ps.append(p)
 
     result = []
+    exclusions = []
     for i, trait in enumerate(traits):
       if self.verbose:
         print(f'\nWorking on trait: {trait}')
       matching = df[df['trait_type'] == trait].sort_values(by='value')
+
+      # Remove exclusions
+      relevant_exclusions = set([d['value'] for d in exclusions if d['trait_type'] == trait])
+      matching = matching[~matching['value'].isin(relevant_exclusions)]
+
       matching['normalized'] = matching['weight'] / matching['weight'].sum()
       rolling_sum = 0.0
       for j, row in matching.iterrows():
@@ -95,6 +127,8 @@ class TraitGenerator():
             'trait_type': row.trait_type,
             'value': row.value
           })
+          if type(row.exclusions) is list:
+            exclusions += row.exclusions
           break
     return result
 
