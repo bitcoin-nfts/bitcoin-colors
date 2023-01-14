@@ -57,9 +57,22 @@ class TraitGenerator():
   '''
   def __init__(self, trait_specification, verbose=True):
     self.trait_specification = pd.DataFrame(trait_specification['specification'])
+    self.preprocess_exclusions()
     
     self.character_allocation = trait_specification.get('character_allocation') 
     self.verbose = verbose
+
+  def preprocess_exclusions(self):
+    for i, s in self.trait_specification.iterrows():
+      reverse = { 'trait_type': s['trait_type'], 'value': s['value'] }
+      if type(s['exclusions']) is list:
+        for e in s['exclusions']:
+          for j, t in self.trait_specification.iterrows():
+            if (e['trait_type'] == t['trait_type'] and e['value'] == t['value']):
+              if type(t['exclusions']) is not list:
+                self.trait_specification.at[j, 'exclusions'] = [reverse]
+              elif reverse not in t['exclusions']:
+                self.traits_specification.at[j, 'exclusions'] = self.trait_specification.at[j, 'exclusions'] + [reverse]
 
   '''
   generate_traits(addr)
