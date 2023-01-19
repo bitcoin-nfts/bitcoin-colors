@@ -1,602 +1,624 @@
-[
-  {
-    "trait_type": "Q1 Background",
-    "value": "Orange",
-    "weight": 0.13
-  },
-  {
-    "trait_type": "Q1 Background",
-    "value": "Red",
-    "weight": 0.12
-  },
-  {
-    "trait_type": "Q1 Background",
-    "value": "Maroon",
-    "weight": 0.03
-  },
-  {
-    "trait_type": "Q1 Background",
-    "value": "Yellow",
-    "weight": 0.01
-  },
-  {
-    "trait_type": "Q1 Background",
-    "value": "Olive",
-    "weight": 0.01
-  },
-  {
-    "trait_type": "Q1 Background",
-    "value": "Lime",
-    "weight": 0.11
-  },
-  {
-    "trait_type": "Q1 Background",
-    "value": "Green",
-    "weight": 0.03
-  },
-  {
-    "trait_type": "Q1 Background",
-    "value": "Aqua",
-    "weight": 0.02
-  },
-  {
-    "trait_type": "Q1 Background",
-    "value": "Teal",
-    "weight": 0.03
-  },
-  {
-    "trait_type": "Q1 Background",
-    "value": "Blue",
-    "weight": 0.07
-  },
-  {
-    "trait_type": "Q1 Background",
-    "value": "Navy",
-    "weight": 0.12
-  },
-  {
-    "trait_type": "Q1 Background",
-    "value": "Fuchsia",
-    "weight": 0.05
-  },
-  {
-    "trait_type": "Q1 Background",
-    "value": "Purple",
-    "weight": 0.02
-  },
-  {
-    "trait_type": "Q1 Background",
-    "value": "Silver",
-    "weight": 0.14
-  },
-  {
-    "trait_type": "Q1 Background",
-    "value": "Gray",
-    "weight": 0.1
-  },
-  {
-    "trait_type": "Q1 Foreground",
-    "value": "Orange",
-    "weight": 0.13
-  },
-  {
-    "trait_type": "Q1 Foreground",
-    "value": "Red",
-    "weight": 0.12
-  },
-  {
-    "trait_type": "Q1 Foreground",
-    "value": "Maroon",
-    "weight": 0.03
-  },
-  {
-    "trait_type": "Q1 Foreground",
-    "value": "Yellow",
-    "weight": 0.01
-  },
-  {
-    "trait_type": "Q1 Foreground",
-    "value": "Olive",
-    "weight": 0.01
-  },
-  {
-    "trait_type": "Q1 Foreground",
-    "value": "Lime",
-    "weight": 0.11
-  },
-  {
-    "trait_type": "Q1 Foreground",
-    "value": "Green",
-    "weight": 0.03
-  },
-  {
-    "trait_type": "Q1 Foreground",
-    "value": "Aqua",
-    "weight": 0.02
-  },
-  {
-    "trait_type": "Q1 Foreground",
-    "value": "Teal",
-    "weight": 0.03
-  },
-  {
-    "trait_type": "Q1 Foreground",
-    "value": "Blue",
-    "weight": 0.07
-  },
-  {
-    "trait_type": "Q1 Foreground",
-    "value": "Navy",
-    "weight": 0.12
-  },
-  {
-    "trait_type": "Q1 Foreground",
-    "value": "Fuchsia",
-    "weight": 0.05
-  },
-  {
-    "trait_type": "Q1 Foreground",
-    "value": "Purple",
-    "weight": 0.02
-  },
-  {
-    "trait_type": "Q1 Foreground",
-    "value": "Silver",
-    "weight": 0.14
-  },
-  {
-    "trait_type": "Q1 Foreground",
-    "value": "Gray",
-    "weight": 0.1
-  },
-  {
-    "trait_type": "Q2 Background",
-    "value": "Orange",
-    "weight": 0.13
-  },
-  {
-    "trait_type": "Q2 Background",
-    "value": "Red",
-    "weight": 0.12
-  },
-  {
-    "trait_type": "Q2 Background",
-    "value": "Maroon",
-    "weight": 0.03
-  },
-  {
-    "trait_type": "Q2 Background",
-    "value": "Yellow",
-    "weight": 0.01
-  },
-  {
-    "trait_type": "Q2 Background",
-    "value": "Olive",
-    "weight": 0.01
-  },
-  {
-    "trait_type": "Q2 Background",
-    "value": "Lime",
-    "weight": 0.11
-  },
-  {
-    "trait_type": "Q2 Background",
-    "value": "Green",
-    "weight": 0.03
-  },
-  {
-    "trait_type": "Q2 Background",
-    "value": "Aqua",
-    "weight": 0.02
-  },
-  {
-    "trait_type": "Q2 Background",
-    "value": "Teal",
-    "weight": 0.03
-  },
-  {
-    "trait_type": "Q2 Background",
-    "value": "Blue",
-    "weight": 0.07
-  },
-  {
-    "trait_type": "Q2 Background",
-    "value": "Navy",
-    "weight": 0.12
-  },
-  {
-    "trait_type": "Q2 Background",
-    "value": "Fuchsia",
-    "weight": 0.05
-  },
-  {
-    "trait_type": "Q2 Background",
-    "value": "Purple",
-    "weight": 0.02
-  },
-  {
-    "trait_type": "Q2 Background",
-    "value": "Silver",
-    "weight": 0.14
-  },
-  {
-    "trait_type": "Q2 Background",
-    "value": "Gray",
-    "weight": 0.1
-  },
-  {
-    "trait_type": "Q2 Foreground",
-    "value": "Orange",
-    "weight": 0.13
-  },
-  {
-    "trait_type": "Q2 Foreground",
-    "value": "Red",
-    "weight": 0.12
-  },
-  {
-    "trait_type": "Q2 Foreground",
-    "value": "Maroon",
-    "weight": 0.03
-  },
-  {
-    "trait_type": "Q2 Foreground",
-    "value": "Yellow",
-    "weight": 0.01
-  },
-  {
-    "trait_type": "Q2 Foreground",
-    "value": "Olive",
-    "weight": 0.01
-  },
-  {
-    "trait_type": "Q2 Foreground",
-    "value": "Lime",
-    "weight": 0.11
-  },
-  {
-    "trait_type": "Q2 Foreground",
-    "value": "Green",
-    "weight": 0.03
-  },
-  {
-    "trait_type": "Q2 Foreground",
-    "value": "Aqua",
-    "weight": 0.02
-  },
-  {
-    "trait_type": "Q2 Foreground",
-    "value": "Teal",
-    "weight": 0.03
-  },
-  {
-    "trait_type": "Q2 Foreground",
-    "value": "Blue",
-    "weight": 0.07
-  },
-  {
-    "trait_type": "Q2 Foreground",
-    "value": "Navy",
-    "weight": 0.12
-  },
-  {
-    "trait_type": "Q2 Foreground",
-    "value": "Fuchsia",
-    "weight": 0.05
-  },
-  {
-    "trait_type": "Q2 Foreground",
-    "value": "Purple",
-    "weight": 0.02
-  },
-  {
-    "trait_type": "Q2 Foreground",
-    "value": "Silver",
-    "weight": 0.14
-  },
-  {
-    "trait_type": "Q2 Foreground",
-    "value": "Gray",
-    "weight": 0.1
-  },
-  {
-    "trait_type": "Q3 Background",
-    "value": "Orange",
-    "weight": 0.13
-  },
-  {
-    "trait_type": "Q3 Background",
-    "value": "Red",
-    "weight": 0.12
-  },
-  {
-    "trait_type": "Q3 Background",
-    "value": "Maroon",
-    "weight": 0.03
-  },
-  {
-    "trait_type": "Q3 Background",
-    "value": "Yellow",
-    "weight": 0.01
-  },
-  {
-    "trait_type": "Q3 Background",
-    "value": "Olive",
-    "weight": 0.01
-  },
-  {
-    "trait_type": "Q3 Background",
-    "value": "Lime",
-    "weight": 0.11
-  },
-  {
-    "trait_type": "Q3 Background",
-    "value": "Green",
-    "weight": 0.03
-  },
-  {
-    "trait_type": "Q3 Background",
-    "value": "Aqua",
-    "weight": 0.02
-  },
-  {
-    "trait_type": "Q3 Background",
-    "value": "Teal",
-    "weight": 0.03
-  },
-  {
-    "trait_type": "Q3 Background",
-    "value": "Blue",
-    "weight": 0.07
-  },
-  {
-    "trait_type": "Q3 Background",
-    "value": "Navy",
-    "weight": 0.12
-  },
-  {
-    "trait_type": "Q3 Background",
-    "value": "Fuchsia",
-    "weight": 0.05
-  },
-  {
-    "trait_type": "Q3 Background",
-    "value": "Purple",
-    "weight": 0.02
-  },
-  {
-    "trait_type": "Q3 Background",
-    "value": "Silver",
-    "weight": 0.14
-  },
-  {
-    "trait_type": "Q3 Background",
-    "value": "Gray",
-    "weight": 0.1
-  },
-  {
-    "trait_type": "Q3 Foreground",
-    "value": "Orange",
-    "weight": 0.13
-  },
-  {
-    "trait_type": "Q3 Foreground",
-    "value": "Red",
-    "weight": 0.12
-  },
-  {
-    "trait_type": "Q3 Foreground",
-    "value": "Maroon",
-    "weight": 0.03
-  },
-  {
-    "trait_type": "Q3 Foreground",
-    "value": "Yellow",
-    "weight": 0.01
-  },
-  {
-    "trait_type": "Q3 Foreground",
-    "value": "Olive",
-    "weight": 0.01
-  },
-  {
-    "trait_type": "Q3 Foreground",
-    "value": "Lime",
-    "weight": 0.11
-  },
-  {
-    "trait_type": "Q3 Foreground",
-    "value": "Green",
-    "weight": 0.03
-  },
-  {
-    "trait_type": "Q3 Foreground",
-    "value": "Aqua",
-    "weight": 0.02
-  },
-  {
-    "trait_type": "Q3 Foreground",
-    "value": "Teal",
-    "weight": 0.03
-  },
-  {
-    "trait_type": "Q3 Foreground",
-    "value": "Blue",
-    "weight": 0.07
-  },
-  {
-    "trait_type": "Q3 Foreground",
-    "value": "Navy",
-    "weight": 0.12
-  },
-  {
-    "trait_type": "Q3 Foreground",
-    "value": "Fuchsia",
-    "weight": 0.05
-  },
-  {
-    "trait_type": "Q3 Foreground",
-    "value": "Purple",
-    "weight": 0.02
-  },
-  {
-    "trait_type": "Q3 Foreground",
-    "value": "Silver",
-    "weight": 0.14
-  },
-  {
-    "trait_type": "Q3 Foreground",
-    "value": "Gray",
-    "weight": 0.1
-  },
-  {
-    "trait_type": "Q4 Background",
-    "value": "Orange",
-    "weight": 0.13
-  },
-  {
-    "trait_type": "Q4 Background",
-    "value": "Red",
-    "weight": 0.12
-  },
-  {
-    "trait_type": "Q4 Background",
-    "value": "Maroon",
-    "weight": 0.03
-  },
-  {
-    "trait_type": "Q4 Background",
-    "value": "Yellow",
-    "weight": 0.01
-  },
-  {
-    "trait_type": "Q4 Background",
-    "value": "Olive",
-    "weight": 0.01
-  },
-  {
-    "trait_type": "Q4 Background",
-    "value": "Lime",
-    "weight": 0.11
-  },
-  {
-    "trait_type": "Q4 Background",
-    "value": "Green",
-    "weight": 0.03
-  },
-  {
-    "trait_type": "Q4 Background",
-    "value": "Aqua",
-    "weight": 0.02
-  },
-  {
-    "trait_type": "Q4 Background",
-    "value": "Teal",
-    "weight": 0.03
-  },
-  {
-    "trait_type": "Q4 Background",
-    "value": "Blue",
-    "weight": 0.07
-  },
-  {
-    "trait_type": "Q4 Background",
-    "value": "Navy",
-    "weight": 0.12
-  },
-  {
-    "trait_type": "Q4 Background",
-    "value": "Fuchsia",
-    "weight": 0.05
-  },
-  {
-    "trait_type": "Q4 Background",
-    "value": "Purple",
-    "weight": 0.02
-  },
-  {
-    "trait_type": "Q4 Background",
-    "value": "Silver",
-    "weight": 0.14
-  },
-  {
-    "trait_type": "Q4 Background",
-    "value": "Gray",
-    "weight": 0.1
-  },
-  {
-    "trait_type": "Q4 Foreground",
-    "value": "Orange",
-    "weight": 0.13
-  },
-  {
-    "trait_type": "Q4 Foreground",
-    "value": "Red",
-    "weight": 0.12
-  },
-  {
-    "trait_type": "Q4 Foreground",
-    "value": "Maroon",
-    "weight": 0.03
-  },
-  {
-    "trait_type": "Q4 Foreground",
-    "value": "Yellow",
-    "weight": 0.01
-  },
-  {
-    "trait_type": "Q4 Foreground",
-    "value": "Olive",
-    "weight": 0.01
-  },
-  {
-    "trait_type": "Q4 Foreground",
-    "value": "Lime",
-    "weight": 0.11
-  },
-  {
-    "trait_type": "Q4 Foreground",
-    "value": "Green",
-    "weight": 0.03
-  },
-  {
-    "trait_type": "Q4 Foreground",
-    "value": "Aqua",
-    "weight": 0.02
-  },
-  {
-    "trait_type": "Q4 Foreground",
-    "value": "Teal",
-    "weight": 0.03
-  },
-  {
-    "trait_type": "Q4 Foreground",
-    "value": "Blue",
-    "weight": 0.07
-  },
-  {
-    "trait_type": "Q4 Foreground",
-    "value": "Navy",
-    "weight": 0.12
-  },
-  {
-    "trait_type": "Q4 Foreground",
-    "value": "Fuchsia",
-    "weight": 0.05
-  },
-  {
-    "trait_type": "Q4 Foreground",
-    "value": "Purple",
-    "weight": 0.02
-  },
-  {
-    "trait_type": "Q4 Foreground",
-    "value": "Silver",
-    "weight": 0.14
-  },
-  {
-    "trait_type": "Q4 Foreground",
-    "value": "Gray",
-    "weight": 0.1
-  }
-]
+{
+  "character_allocation": {
+    "Q1 Background": 3,
+    "Q2 Background": 3,
+    "Q3 Background": 3,
+    "Q4 Background": 3,
+    "Q1 Foreground": 3,
+    "Q2 Foreground": 3,
+    "Q3 Foreground": 3,
+    "Q4 Foreground": 3
+  },
+  "specification": [
+    {
+      "trait_type": "Q1 Background",
+      "value": "Orange",
+      "weight": 0.13,
+      "exclusions": [
+        {
+          "trait_type": "Q2 Background",
+          "value": "Orange"
+        },
+        {
+          "trait_type": "Q2 Background",
+          "value": "Red"
+        }
+      ]
+    },
+    {
+      "trait_type": "Q1 Background",
+      "value": "Red",
+      "weight": 0.12
+    },
+    {
+      "trait_type": "Q1 Background",
+      "value": "Maroon",
+      "weight": 0.03
+    },
+    {
+      "trait_type": "Q1 Background",
+      "value": "Yellow",
+      "weight": 0.01
+    },
+    {
+      "trait_type": "Q1 Background",
+      "value": "Olive",
+      "weight": 0.01
+    },
+    {
+      "trait_type": "Q1 Background",
+      "value": "Lime",
+      "weight": 0.11
+    },
+    {
+      "trait_type": "Q1 Background",
+      "value": "Green",
+      "weight": 0.03
+    },
+    {
+      "trait_type": "Q1 Background",
+      "value": "Aqua",
+      "weight": 0.02
+    },
+    {
+      "trait_type": "Q1 Background",
+      "value": "Teal",
+      "weight": 0.03
+    },
+    {
+      "trait_type": "Q1 Background",
+      "value": "Blue",
+      "weight": 0.07
+    },
+    {
+      "trait_type": "Q1 Background",
+      "value": "Navy",
+      "weight": 0.12
+    },
+    {
+      "trait_type": "Q1 Background",
+      "value": "Fuchsia",
+      "weight": 0.05
+    },
+    {
+      "trait_type": "Q1 Background",
+      "value": "Purple",
+      "weight": 0.02
+    },
+    {
+      "trait_type": "Q1 Background",
+      "value": "Silver",
+      "weight": 0.14
+    },
+    {
+      "trait_type": "Q1 Background",
+      "value": "Gray",
+      "weight": 0.1
+    },
+    {
+      "trait_type": "Q1 Foreground",
+      "value": "Orange",
+      "weight": 0.13
+    },
+    {
+      "trait_type": "Q1 Foreground",
+      "value": "Red",
+      "weight": 0.12
+    },
+    {
+      "trait_type": "Q1 Foreground",
+      "value": "Maroon",
+      "weight": 0.03
+    },
+    {
+      "trait_type": "Q1 Foreground",
+      "value": "Yellow",
+      "weight": 0.01
+    },
+    {
+      "trait_type": "Q1 Foreground",
+      "value": "Olive",
+      "weight": 0.01
+    },
+    {
+      "trait_type": "Q1 Foreground",
+      "value": "Lime",
+      "weight": 0.11
+    },
+    {
+      "trait_type": "Q1 Foreground",
+      "value": "Green",
+      "weight": 0.03
+    },
+    {
+      "trait_type": "Q1 Foreground",
+      "value": "Aqua",
+      "weight": 0.02
+    },
+    {
+      "trait_type": "Q1 Foreground",
+      "value": "Teal",
+      "weight": 0.03
+    },
+    {
+      "trait_type": "Q1 Foreground",
+      "value": "Blue",
+      "weight": 0.07
+    },
+    {
+      "trait_type": "Q1 Foreground",
+      "value": "Navy",
+      "weight": 0.12
+    },
+    {
+      "trait_type": "Q1 Foreground",
+      "value": "Fuchsia",
+      "weight": 0.05
+    },
+    {
+      "trait_type": "Q1 Foreground",
+      "value": "Purple",
+      "weight": 0.02
+    },
+    {
+      "trait_type": "Q1 Foreground",
+      "value": "Silver",
+      "weight": 0.14
+    },
+    {
+      "trait_type": "Q1 Foreground",
+      "value": "Gray",
+      "weight": 0.1
+    },
+    {
+      "trait_type": "Q2 Background",
+      "value": "Orange",
+      "weight": 0.13
+    },
+    {
+      "trait_type": "Q2 Background",
+      "value": "Red",
+      "weight": 0.12
+    },
+    {
+      "trait_type": "Q2 Background",
+      "value": "Maroon",
+      "weight": 0.03
+    },
+    {
+      "trait_type": "Q2 Background",
+      "value": "Yellow",
+      "weight": 0.01
+    },
+    {
+      "trait_type": "Q2 Background",
+      "value": "Olive",
+      "weight": 0.01
+    },
+    {
+      "trait_type": "Q2 Background",
+      "value": "Lime",
+      "weight": 0.11
+    },
+    {
+      "trait_type": "Q2 Background",
+      "value": "Green",
+      "weight": 0.03
+    },
+    {
+      "trait_type": "Q2 Background",
+      "value": "Aqua",
+      "weight": 0.02
+    },
+    {
+      "trait_type": "Q2 Background",
+      "value": "Teal",
+      "weight": 0.03
+    },
+    {
+      "trait_type": "Q2 Background",
+      "value": "Blue",
+      "weight": 0.07
+    },
+    {
+      "trait_type": "Q2 Background",
+      "value": "Navy",
+      "weight": 0.12
+    },
+    {
+      "trait_type": "Q2 Background",
+      "value": "Fuchsia",
+      "weight": 0.05
+    },
+    {
+      "trait_type": "Q2 Background",
+      "value": "Purple",
+      "weight": 0.02
+    },
+    {
+      "trait_type": "Q2 Background",
+      "value": "Silver",
+      "weight": 0.14
+    },
+    {
+      "trait_type": "Q2 Background",
+      "value": "Gray",
+      "weight": 0.1
+    },
+    {
+      "trait_type": "Q2 Foreground",
+      "value": "Orange",
+      "weight": 0.13
+    },
+    {
+      "trait_type": "Q2 Foreground",
+      "value": "Red",
+      "weight": 0.12
+    },
+    {
+      "trait_type": "Q2 Foreground",
+      "value": "Maroon",
+      "weight": 0.03
+    },
+    {
+      "trait_type": "Q2 Foreground",
+      "value": "Yellow",
+      "weight": 0.01
+    },
+    {
+      "trait_type": "Q2 Foreground",
+      "value": "Olive",
+      "weight": 0.01
+    },
+    {
+      "trait_type": "Q2 Foreground",
+      "value": "Lime",
+      "weight": 0.11
+    },
+    {
+      "trait_type": "Q2 Foreground",
+      "value": "Green",
+      "weight": 0.03
+    },
+    {
+      "trait_type": "Q2 Foreground",
+      "value": "Aqua",
+      "weight": 0.02
+    },
+    {
+      "trait_type": "Q2 Foreground",
+      "value": "Teal",
+      "weight": 0.03
+    },
+    {
+      "trait_type": "Q2 Foreground",
+      "value": "Blue",
+      "weight": 0.07
+    },
+    {
+      "trait_type": "Q2 Foreground",
+      "value": "Navy",
+      "weight": 0.12
+    },
+    {
+      "trait_type": "Q2 Foreground",
+      "value": "Fuchsia",
+      "weight": 0.05
+    },
+    {
+      "trait_type": "Q2 Foreground",
+      "value": "Purple",
+      "weight": 0.02
+    },
+    {
+      "trait_type": "Q2 Foreground",
+      "value": "Silver",
+      "weight": 0.14
+    },
+    {
+      "trait_type": "Q2 Foreground",
+      "value": "Gray",
+      "weight": 0.1
+    },
+    {
+      "trait_type": "Q3 Background",
+      "value": "Orange",
+      "weight": 0.13
+    },
+    {
+      "trait_type": "Q3 Background",
+      "value": "Red",
+      "weight": 0.12
+    },
+    {
+      "trait_type": "Q3 Background",
+      "value": "Maroon",
+      "weight": 0.03
+    },
+    {
+      "trait_type": "Q3 Background",
+      "value": "Yellow",
+      "weight": 0.01
+    },
+    {
+      "trait_type": "Q3 Background",
+      "value": "Olive",
+      "weight": 0.01
+    },
+    {
+      "trait_type": "Q3 Background",
+      "value": "Lime",
+      "weight": 0.11
+    },
+    {
+      "trait_type": "Q3 Background",
+      "value": "Green",
+      "weight": 0.03
+    },
+    {
+      "trait_type": "Q3 Background",
+      "value": "Aqua",
+      "weight": 0.02
+    },
+    {
+      "trait_type": "Q3 Background",
+      "value": "Teal",
+      "weight": 0.03
+    },
+    {
+      "trait_type": "Q3 Background",
+      "value": "Blue",
+      "weight": 0.07
+    },
+    {
+      "trait_type": "Q3 Background",
+      "value": "Navy",
+      "weight": 0.12
+    },
+    {
+      "trait_type": "Q3 Background",
+      "value": "Fuchsia",
+      "weight": 0.05
+    },
+    {
+      "trait_type": "Q3 Background",
+      "value": "Purple",
+      "weight": 0.02
+    },
+    {
+      "trait_type": "Q3 Background",
+      "value": "Silver",
+      "weight": 0.14
+    },
+    {
+      "trait_type": "Q3 Background",
+      "value": "Gray",
+      "weight": 0.1
+    },
+    {
+      "trait_type": "Q3 Foreground",
+      "value": "Orange",
+      "weight": 0.13
+    },
+    {
+      "trait_type": "Q3 Foreground",
+      "value": "Red",
+      "weight": 0.12
+    },
+    {
+      "trait_type": "Q3 Foreground",
+      "value": "Maroon",
+      "weight": 0.03
+    },
+    {
+      "trait_type": "Q3 Foreground",
+      "value": "Yellow",
+      "weight": 0.01
+    },
+    {
+      "trait_type": "Q3 Foreground",
+      "value": "Olive",
+      "weight": 0.01
+    },
+    {
+      "trait_type": "Q3 Foreground",
+      "value": "Lime",
+      "weight": 0.11
+    },
+    {
+      "trait_type": "Q3 Foreground",
+      "value": "Green",
+      "weight": 0.03
+    },
+    {
+      "trait_type": "Q3 Foreground",
+      "value": "Aqua",
+      "weight": 0.02
+    },
+    {
+      "trait_type": "Q3 Foreground",
+      "value": "Teal",
+      "weight": 0.03
+    },
+    {
+      "trait_type": "Q3 Foreground",
+      "value": "Blue",
+      "weight": 0.07
+    },
+    {
+      "trait_type": "Q3 Foreground",
+      "value": "Navy",
+      "weight": 0.12
+    },
+    {
+      "trait_type": "Q3 Foreground",
+      "value": "Fuchsia",
+      "weight": 0.05
+    },
+    {
+      "trait_type": "Q3 Foreground",
+      "value": "Purple",
+      "weight": 0.02
+    },
+    {
+      "trait_type": "Q3 Foreground",
+      "value": "Silver",
+      "weight": 0.14
+    },
+    {
+      "trait_type": "Q3 Foreground",
+      "value": "Gray",
+      "weight": 0.1
+    },
+    {
+      "trait_type": "Q4 Background",
+      "value": "Orange",
+      "weight": 0.13
+    },
+    {
+      "trait_type": "Q4 Background",
+      "value": "Red",
+      "weight": 0.12
+    },
+    {
+      "trait_type": "Q4 Background",
+      "value": "Maroon",
+      "weight": 0.03
+    },
+    {
+      "trait_type": "Q4 Background",
+      "value": "Yellow",
+      "weight": 0.01
+    },
+    {
+      "trait_type": "Q4 Background",
+      "value": "Olive",
+      "weight": 0.01
+    },
+    {
+      "trait_type": "Q4 Background",
+      "value": "Lime",
+      "weight": 0.11
+    },
+    {
+      "trait_type": "Q4 Background",
+      "value": "Green",
+      "weight": 0.03
+    },
+    {
+      "trait_type": "Q4 Background",
+      "value": "Aqua",
+      "weight": 0.02
+    },
+    {
+      "trait_type": "Q4 Background",
+      "value": "Teal",
+      "weight": 0.03
+    },
+    {
+      "trait_type": "Q4 Background",
+      "value": "Blue",
+      "weight": 0.07
+    },
+    {
+      "trait_type": "Q4 Background",
+      "value": "Navy",
+      "weight": 0.12
+    },
+    {
+      "trait_type": "Q4 Background",
+      "value": "Fuchsia",
+      "weight": 0.05
+    },
+    {
+      "trait_type": "Q4 Background",
+      "value": "Purple",
+      "weight": 0.02
+    },
+    {
+      "trait_type": "Q4 Background",
+      "value": "Silver",
+      "weight": 0.14
+    },
+    {
+      "trait_type": "Q4 Background",
+      "value": "Gray",
+      "weight": 0.1
+    },
+    {
+      "trait_type": "Q4 Foreground",
+      "value": "Orange",
+      "weight": 0.13
+    },
+    {
+      "trait_type": "Q4 Foreground",
+      "value": "Red",
+      "weight": 0.12
+    },
+    {
+      "trait_type": "Q4 Foreground",
+      "value": "Maroon",
+      "weight": 0.03
+    },
+    {
+      "trait_type": "Q4 Foreground",
+      "value": "Yellow",
+      "weight": 0.01
+    },
+    {
+      "trait_type": "Q4 Foreground",
+      "value": "Olive",
+      "weight": 0.01
+    },
+    {
+      "trait_type": "Q4 Foreground",
+      "value": "Lime",
+      "weight": 0.11
+    },
+    {
+      "trait_type": "Q4 Foreground",
+      "value": "Green",
+      "weight": 0.03
+    },
+    {
+      "trait_type": "Q4 Foreground",
+      "value": "Aqua",
+      "weight": 0.02
+    },
+    {
+      "trait_type": "Q4 Foreground",
+      "value": "Teal",
+      "weight": 0.03
+    },
+    {
+      "trait_type": "Q4 Foreground",
+      "value": "Blue",
+      "weight": 0.07
+    },
+    {
+      "trait_type": "Q4 Foreground",
+      "value": "Navy",
+      "weight": 0.12
+    },
+    {
+      "trait_type": "Q4 Foreground",
+      "value": "Fuchsia",
+      "weight": 0.05
+    },
+    {
+      "trait_type": "Q4 Foreground",
+      "value": "Purple",
+      "weight": 0.02
+    },
+    {
+      "trait_type": "Q4 Foreground",
+      "value": "Silver",
+      "weight": 0.14
+    },
+    {
+      "trait_type": "Q4 Foreground",
+      "value": "Gray",
+      "weight": 0.1
+    }
+  ]
+}
