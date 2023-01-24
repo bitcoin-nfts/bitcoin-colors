@@ -1,6 +1,6 @@
-export async function getHat(index = 0) {
-  if (index === -1) return undefined;
+import { getRandomIntInclusive } from "./common";
 
+export async function getHat() {
   const svgOpenTag = `<g id="Hat">`;
   const svgCloseTag = `</g>`;
 
@@ -18,6 +18,9 @@ export async function getHat(index = 0) {
     <circle cx="520.46" cy="230.24" r="67.19" style="fill:#f26227" />
     <circle cx="520.45" cy="230.24" r="58.81" style="fill:#d74b27" />`,
   ];
+
+  const index = getRandomIntInclusive(0, hatOptions.length - 1);
+  console.log(`  Hat: ${index}`);
 
   // TODO: generalize to `createSVG()` helper function
   const hatSVG = `${svgOpenTag}${hatOptions[index]}${svgCloseTag}`;

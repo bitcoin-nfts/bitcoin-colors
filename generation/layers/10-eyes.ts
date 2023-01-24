@@ -1,4 +1,6 @@
-export async function getEyes(index = 0) {
+import { getRandomIntInclusive } from "./common";
+
+export async function getEyes() {
   const svgOpenTag = `<g id="Eyes">`;
   const svgCloseTag = `</g>`;
 
@@ -26,6 +28,9 @@ export async function getEyes(index = 0) {
     <rect x="2112.75" y="408.7" width="88.59" height="29.53" rx="9" transform="translate(2465.09 -814.64) rotate(135)" style="fill:#3e2f39" />
     <rect x="2127.51" y="408.7" width="59.06" height="29.53" rx="9" transform="translate(2465.09 -814.64) rotate(135)" style="fill:#24181f" />`,
   ];
+
+  const index = getRandomIntInclusive(0, eyesOptions.length - 1);
+  console.log(`  Eyes: ${index}`);
 
   // TODO: generalize to `createSVG()` helper function
   const eyesSVG = `${svgOpenTag}${eyesOptions[index]}${svgCloseTag}`;

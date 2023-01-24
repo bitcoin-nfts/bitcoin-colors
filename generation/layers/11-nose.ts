@@ -1,4 +1,6 @@
-export async function getNose(index = 0) {
+import { getRandomIntInclusive } from "./common";
+
+export async function getNose() {
   const svgOpenTag = `<g id="Nose">`;
   const svgCloseTag = `</g>`;
 
@@ -9,7 +11,11 @@ export async function getNose(index = 0) {
     <circle cx="459.19" cy="494.55" r="27" style="fill:#3e2f39" />
     <circle cx="567.5" cy="494.5" r="36.5" style="fill:#ec6547" />
     <circle cx="458.69" cy="494.05" r="36.5" style="fill:#ec6547" />`,
+    undefined,
   ];
+
+  const index = getRandomIntInclusive(0, noseOptions.length - 1);
+  console.log(`  Nose: ${index}`);
 
   // TODO: generalize to `createSVG()` helper function
   const noseSVG = `${svgOpenTag}${noseOptions[index]}${svgCloseTag}`;

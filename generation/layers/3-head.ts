@@ -1,4 +1,6 @@
-export async function getHead(index = 0) {
+import { getRandomIntInclusive } from "./common";
+
+export async function getHead() {
   const svgOpenTag = `<g id="Head">`;
   const svgCloseTag = `</g>`;
 
@@ -162,6 +164,9 @@ export async function getHead(index = 0) {
   </g>
   <rect x="139.88" y="467.76" width="730.35" height="22.82" style="fill:#b0a5b5;opacity:0.52;mix-blend-mode:overlay" />`,
   ];
+
+  const index = getRandomIntInclusive(0, headOptions.length - 1);
+  console.log(`  Head: ${index}`);
 
   const headSVG = `${svgOpenTag}${headOptions[index]}${svgCloseTag}`;
 

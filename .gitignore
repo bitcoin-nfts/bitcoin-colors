@@ -3,3 +3,4 @@ node_modules/
 **/settings/Testnet.toml
 .cache/**
 history.txt
+generation/faces

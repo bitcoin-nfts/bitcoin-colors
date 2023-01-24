@@ -1,4 +1,6 @@
-export async function getMouth(index = 0) {
+import { getRandomIntInclusive } from "./common";
+
+export async function getMouth() {
   const svgOpenTag = `<g id="Mouth">`;
   const svgCloseTag = `</g>`;
 
@@ -36,6 +38,9 @@ export async function getMouth(index = 0) {
     <path d="M588.45,561.74h27.8a0,0,0,0,1,0,0v20.44a12.92,12.92,0,0,1-12.92,12.92h-2a12.92,12.92,0,0,1-12.92-12.92V561.74A0,0,0,0,1,588.45,561.74Z" transform="translate(1209.67 1162.1) rotate(-180)" style="fill:#f38bb0" />
     <path d="M633.84,561.74h27.8a0,0,0,0,1,0,0v20.44a12.92,12.92,0,0,1-12.92,12.92h-2a12.92,12.92,0,0,1-12.92-12.92V561.74a0,0,0,0,1,0,0Z" transform="translate(1300.44 1162.1) rotate(-180)" style="fill:#f38bb0" />`,
   ];
+
+  const index = getRandomIntInclusive(0, mouthOptions.length - 1);
+  console.log(`  Mouth: ${index}`);
 
   // TODO: generalize to `createSVG()` helper function
   const mouthSVG = `${svgOpenTag}${mouthOptions[index]}${svgCloseTag}`;

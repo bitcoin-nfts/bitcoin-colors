@@ -1,6 +1,6 @@
-export async function getFaceAccessory(index = 0) {
-  if (index === -1) return undefined;
+import { getRandomIntInclusive } from "./common";
 
+export async function getFaceAccessory() {
   const svgOpenTag = `<g id="Face-Accessory">`;
   const svgCloseTag = `</g>`;
 
@@ -33,7 +33,11 @@ export async function getFaceAccessory(index = 0) {
   <circle cx="593.52" cy="838.3" r="18" style="fill:#f26227" />
   <circle cx="620.52" cy="811.3" r="18" style="fill:#f26227" />
   <circle cx="647.52" cy="784.3" r="18" style="fill:#f26227" />`,
+    undefined,
   ];
+
+  const index = getRandomIntInclusive(0, faceAccessoryOptions.length - 1);
+  console.log(`  Face Accessory: ${index}`);
 
   const faceAccessorySVG = `${svgOpenTag}${faceAccessoryOptions[index]}${svgCloseTag}`;
 

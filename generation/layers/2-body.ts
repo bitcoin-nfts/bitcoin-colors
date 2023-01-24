@@ -1,4 +1,6 @@
-export async function getBody(index = 0) {
+import { getRandomIntInclusive } from "./common";
+
+export async function getBody() {
   const svgOpenTag = `<g id="Body">`;
   const svgCloseTag = `</g>`;
 
@@ -12,6 +14,9 @@ export async function getBody(index = 0) {
     <rect x="298.87" y="764.65" width="402.04" height="270.35" style="fill:#553060" />
     <rect x="499.69" y="684.89" width="204.71" height="350.11" style="fill:#172028" />`,
   ];
+
+  const index = getRandomIntInclusive(0, bodyOptions.length - 1);
+  console.log(`  Body: ${index}`);
 
   const bodySVG = `${svgOpenTag}${bodyOptions[index]}${svgCloseTag}`;
 

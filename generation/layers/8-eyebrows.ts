@@ -1,4 +1,6 @@
-export async function getEyebrows(index = 0) {
+import { getRandomIntInclusive } from "./common";
+
+export async function getEyebrows() {
   const svgOpenTag = `<g id="Eyebrows">`;
   const svgCloseTag = `</g>`;
 
@@ -11,7 +13,11 @@ export async function getEyebrows(index = 0) {
     <path d="M454.37,383.54V325.17a99.88,99.88,0,0,0-99.88-99.88h-18.8" transform="translate(4.96 5.26)" style="fill:none;stroke:#eadfdb;stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px;mix-blend-mode:overlay" />
     <path d="M463.21,383.16V320.63a107,107,0,0,0-107-107H336.06" transform="translate(4.96 5.26)" style="fill:none;stroke:#eadfdb;stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px;mix-blend-mode:overlay" />
     <path d="M482.6,383.68V311.77A123.07,123.07,0,0,0,359.54,188.71H336.37" transform="translate(4.96 5.26)" style="fill:none;stroke:#eadfdb;stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px;mix-blend-mode:overlay" />`,
+    undefined,
   ];
+
+  const index = getRandomIntInclusive(0, eyebrowsOptions.length - 1);
+  console.log(`  Eyebrows: ${index}`);
 
   // TODO: generalize to `createSVG()` helper function
   const eyebrowsSVG = `${svgOpenTag}${eyebrowsOptions[index]}${svgCloseTag}`;
