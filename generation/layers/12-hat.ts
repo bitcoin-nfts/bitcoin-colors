@@ -17,6 +17,7 @@ export async function getHat() {
     <path d="M546.07,228.73l91.7-115.5v36.08c0,25.56-20.28,49.43-54.06,63.61Z" transform="translate(4.96 5.26)" style="fill:#de4926" />
     <circle cx="520.46" cy="230.24" r="67.19" style="fill:#f26227" />
     <circle cx="520.45" cy="230.24" r="58.81" style="fill:#d74b27" />`,
+    undefined,
   ];
 
   const index = getRandomIntInclusive(0, hatOptions.length - 1);

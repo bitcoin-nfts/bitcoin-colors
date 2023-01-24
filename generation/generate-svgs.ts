@@ -53,4 +53,4 @@ async function generateSVGs(total: number) {
   }
 }
 
-generateSVGs(20);
+generateSVGs(50);
