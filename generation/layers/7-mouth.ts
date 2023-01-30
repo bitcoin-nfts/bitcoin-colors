@@ -37,6 +37,27 @@ export async function getMouth() {
     <path d="M545.3,561.74h27.8a0,0,0,0,1,0,0v20.44a12.92,12.92,0,0,1-12.92,12.92h-2a12.92,12.92,0,0,1-12.92-12.92V561.74A0,0,0,0,1,545.3,561.74Z" transform="translate(1123.36 1162.1) rotate(-180)" style="fill:#f38bb0" />
     <path d="M588.45,561.74h27.8a0,0,0,0,1,0,0v20.44a12.92,12.92,0,0,1-12.92,12.92h-2a12.92,12.92,0,0,1-12.92-12.92V561.74A0,0,0,0,1,588.45,561.74Z" transform="translate(1209.67 1162.1) rotate(-180)" style="fill:#f38bb0" />
     <path d="M633.84,561.74h27.8a0,0,0,0,1,0,0v20.44a12.92,12.92,0,0,1-12.92,12.92h-2a12.92,12.92,0,0,1-12.92-12.92V561.74a0,0,0,0,1,0,0Z" transform="translate(1300.44 1162.1) rotate(-180)" style="fill:#f38bb0" />`,
+    `<rect x="228.24" y="545" width="555.76" height="161.34" style="fill:#e73581" />
+    <rect x="508.76" y="561.13" width="256.08" height="145.21"
+      transform="translate(1270.96 1267.48) rotate(-180)" style="fill:#dcbabf" />
+    <rect x="704.91" y="561.13" width="16.35" height="145.21"
+      transform="translate(1423.52 1267.48) rotate(-180)" style="fill:#161f26" />
+    <rect x="502.71" y="625.67" width="262.14" height="5.38"
+      transform="translate(1264.91 1256.72) rotate(-180)" style="fill:#161f26" />
+    <rect x="250.03" y="561.13" width="256.08" height="145.21" style="fill:#f0e2db" />
+    <rect x="293.62" y="561.13" width="16.35" height="145.21" style="fill:#161f26" />
+    <rect x="250.03" y="625.67" width="262.14" height="5.38" style="fill:#161f26" />
+    <rect x="348.11" y="561.13" width="16.35" height="145.21" style="fill:#161f26" />
+    <rect x="402.59" y="561.13" width="16.35" height="145.21" style="fill:#161f26" />
+    <rect x="457.08" y="561.13" width="16.35" height="145.21" style="fill:#161f26" />
+    <rect x="538.81" y="561.13" width="16.35" height="145.21" style="fill:#161f26" />
+    <rect x="593.29" y="561.13" width="16.35" height="145.21" style="fill:#161f26" />
+    <rect x="647.78" y="561.13" width="16.35" height="145.21" style="fill:#161f26" />
+    <rect x="241.18" y="553.18" width="535.67" height="35.71"
+      style="fill:#7814bd;opacity:0.34;mix-blend-mode:multiply" />
+    <rect x="226.9" y="703.17" width="557.1" height="14.28" style="fill:#e73581" />
+    <rect x="234.04" y="710.31" width="535.67" height="21.43"
+      style="fill:#7814bd;opacity:0.34;mix-blend-mode:multiply" />`,
   ];
 
   const index = getRandomIntInclusive(0, mouthOptions.length - 1);

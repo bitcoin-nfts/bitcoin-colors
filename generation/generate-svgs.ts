@@ -7,18 +7,18 @@ async function generateSVGs(total: number) {
   <g style="isolation:isolate">`;
   const svgCloseTag = `</g></svg>`;
 
-  // generate ten faces for testing
+  // generate faces for testing
   for (let i = 0; i < total; i++) {
     console.log("-------------------------");
     console.log("Setting up attributes...");
     const attributes = await Promise.all([
-      generator.getBackground(), // 2 options
-      generator.getBody(), // 2 options
-      generator.getHead(), // 1 option
-      generator.getFaceAccessory(), // 1 option, undef
-      generator.getEarrings(), // 1 option
-      generator.getEars(), // 2 options
-      generator.getMouth(), // 2 options
+      generator.getBackground(),
+      generator.getBody(),
+      generator.getHead(2),
+      generator.getFaceAccessory(),
+      generator.getEarrings(),
+      generator.getEars(),
+      generator.getMouth(),
       generator.getEyebrows(),
       generator.getGlasses(),
       generator.getEyes(),
@@ -53,4 +53,4 @@ async function generateSVGs(total: number) {
   }
 }
 
-generateSVGs(50);
+generateSVGs(100);

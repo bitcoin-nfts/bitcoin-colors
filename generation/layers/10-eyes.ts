@@ -27,6 +27,20 @@ export async function getEyes() {
     <circle cx="640.4" cy="412.34" r="43.47" style="fill:#e79e2d" />
     <rect x="2112.75" y="408.7" width="88.59" height="29.53" rx="9" transform="translate(2465.09 -814.64) rotate(135)" style="fill:#3e2f39" />
     <rect x="2127.51" y="408.7" width="59.06" height="29.53" rx="9" transform="translate(2465.09 -814.64) rotate(135)" style="fill:#24181f" />`,
+    `<circle cx="367.46" cy="417.69" r="72.38" style="fill:#6e5074" />
+    <circle cx="367.46" cy="417.69" r="66.81" style="fill:#f17f2b" />
+    <circle cx="367.46" cy="417.69" r="38.97" style="fill:#172027" />
+    <path d="M370.1,502.75A85.16,85.16,0,0,1,285,417.69h3.09a82.06,82.06,0,0,0,82,82Z"
+      transform="translate(-2.64 0)" style="fill:#6e5074" />
+    <circle cx="642.74" cy="419.24" r="72.38" style="fill:#6e5074" />
+    <circle cx="642.74" cy="419.24" r="66.81" style="fill:#f17f2b" />
+    <circle cx="642.74" cy="419.24" r="38.97" style="fill:#172027" />
+    <path d="M645.38,504.3a85.16,85.16,0,0,0,85.06-85.06h-3.09a82.06,82.06,0,0,1-82,82Z"
+      transform="translate(-2.64 0)" style="fill:#6e5074" />
+    <path d="M568.88,382.62H820.72l-33.58-50.37H697.25a160.45,160.45,0,0,0-82.52,22.85Z"
+      transform="translate(-2.64 0)" style="fill:#4a2955" />
+    <path d="M438.21,381.59H186.36l33.58-50.37h89.9a160.45,160.45,0,0,1,82.52,22.85Z"
+      transform="translate(-2.64 0)" style="fill:#4a2955" />`,
   ];
 
   const index = getRandomIntInclusive(0, eyesOptions.length - 1);
