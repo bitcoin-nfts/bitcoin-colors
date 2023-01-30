@@ -2,7 +2,7 @@ import { writeFileSync } from "node:fs";
 import * as generator from "./layers/common";
 
 async function generateSVGs(total: number) {
-  const svgOpenTag = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1025.56 1025.56">
+  const svgOpenTag = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
   <title>Bitcoin Face</title>
   <g style="isolation:isolate">`;
   const svgCloseTag = `</g></svg>`;
@@ -14,7 +14,7 @@ async function generateSVGs(total: number) {
     const attributes = await Promise.all([
       generator.getBackground(),
       generator.getBody(),
-      generator.getHead(2),
+      generator.getHead(),
       generator.getFaceAccessory(),
       generator.getEarrings(),
       generator.getEars(),

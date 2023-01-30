@@ -17,7 +17,7 @@ export async function getBackground() {
   const index = getRandomIntInclusive(0, backgroundFillColors.length - 1);
   console.log(`  Background: ${index}`);
 
-  const backgroundSVG = `<rect id="Background" width="1025.56" height="1025.56" style="fill:${backgroundFillColors[index]}" />`;
+  const backgroundSVG = `<rect id="Background" width="1025" height="1025" style="fill:${backgroundFillColors[index]}" />`;
 
   return backgroundSVG;
 }
