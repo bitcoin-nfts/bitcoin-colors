@@ -1,9 +1,6 @@
 import { getRandomIntInclusive } from "./common";
 
 export async function getEars() {
-  const svgOpenTag = `<g id="Ears">`;
-  const svgCloseTag = `</g>`;
-
   const earsOptions = [
     // EARS 1
     `<path d="M134.81,337.15H347a0,0,0,0,1,0,0v180a0,0,0,0,1,0,0H134.81a72,72,0,0,1-72-72v-36A72,72,0,0,1,134.81,337.15Z" style="fill:#df2d2c" /><path d="M803.72,337.15H951.54a0,0,0,0,1,0,0v180a0,0,0,0,1,0,0H803.72a72,72,0,0,1-72-72v-36A72,72,0,0,1,803.72,337.15Z" transform="translate(1683.54 854.3) rotate(180)" style="fill:#c12e58" /><rect x="107.81" y="373.15" width="63" height="108" rx="31.5" style="fill:#a02960" /><rect x="848.81" y="373.15" width="63" height="108" rx="31.5" style="fill:#4a2955;opacity:0.45" />`,
@@ -24,7 +21,8 @@ export async function getEars() {
   const index = getRandomIntInclusive(0, earsOptions.length - 1);
   console.log(`  Ears: ${index}`);
 
-  // TODO: generalize to `createSVG()` helper function
+  const svgOpenTag = `<g id="Ears-${index + 1}">`;
+  const svgCloseTag = `</g>`;
   const earsSVG = `${svgOpenTag}${earsOptions[index]}${svgCloseTag}`;
 
   return earsSVG;

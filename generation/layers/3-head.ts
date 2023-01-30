@@ -1,9 +1,6 @@
 import { getRandomIntInclusive } from "./common";
 
 export async function getHead(test?: number) {
-  const svgOpenTag = `<g id="Head">`;
-  const svgCloseTag = `</g>`;
-
   const headOptions = [
     // HEAD 1
     `<polygon points="502.26 121.83 502.26 949.11 155.96 689.38 155.96 314.22 502.26 121.83" style="fill:#f96020" /><polygon points="502.7 121.72 502.7 948.99 849 689.27 849 314.11 502.7 121.72" style="fill:#df4624" />`,
@@ -34,6 +31,8 @@ export async function getHead(test?: number) {
   const index = test ? test : getRandomIntInclusive(0, headOptions.length - 1);
   console.log(`  Head: ${index}`);
 
+  const svgOpenTag = `<g id="Head-${index + 1}">`;
+  const svgCloseTag = `</g>`;
   const headSVG = `${svgOpenTag}${headOptions[index]}${svgCloseTag}`;
 
   return headSVG;

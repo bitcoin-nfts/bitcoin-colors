@@ -1,9 +1,6 @@
 import { getRandomIntInclusive } from "./common";
 
 export async function getHat() {
-  const svgOpenTag = `<g id="Hat">`;
-  const svgCloseTag = `</g>`;
-
   const hatOptions = [
     // HAT 1
     `<path d="M498,50h9a0,0,0,0,1,0,0V185a0,0,0,0,1,0,0H363a0,0,0,0,1,0,0v0A135,135,0,0,1,498,50Z" style="fill:#f96020" /><path d="M507,50h9A135,135,0,0,1,651,185v0a0,0,0,0,1,0,0H507a0,0,0,0,1,0,0V50A0,0,0,0,1,507,50Z" style="fill:#d74816" /><rect x="391" y="176" width="241" height="18" style="fill:#ffa520" />`,
@@ -22,7 +19,8 @@ export async function getHat() {
   const index = getRandomIntInclusive(0, hatOptions.length - 1);
   console.log(`  Hat: ${index}`);
 
-  // TODO: generalize to `createSVG()` helper function
+  const svgOpenTag = `<g id="Hat-${index + 1}">`;
+  const svgCloseTag = `</g>`;
   const hatSVG = `${svgOpenTag}${hatOptions[index]}${svgCloseTag}`;
 
   return hatSVG;

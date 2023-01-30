@@ -1,9 +1,6 @@
 import { getRandomIntInclusive } from "./common";
 
 export async function getBody() {
-  const svgOpenTag = `<g id="Body">`;
-  const svgCloseTag = `</g>`;
-
   const bodyOptions = [
     // BODY 1
     `<rect y="527.13" width="1010" height="474.67" style="fill:#001a1b" /><rect x="230.99" y="648.68" width="558.75" height="355.32" style="fill:#bcafb1" /><rect x="421.53" y="575.39" width="167.41" height="428.61" style="fill:#172027" />`,
@@ -26,6 +23,8 @@ export async function getBody() {
   const index = getRandomIntInclusive(0, bodyOptions.length - 1);
   console.log(`  Body: ${index}`);
 
+  const svgOpenTag = `<g id="Body-${index + 1}">`;
+  const svgCloseTag = `</g>`;
   const bodySVG = `${svgOpenTag}${bodyOptions[index]}${svgCloseTag}`;
 
   return bodySVG;

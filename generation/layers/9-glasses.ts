@@ -1,9 +1,6 @@
 import { getRandomIntInclusive } from "./common";
 
 export async function getGlasses() {
-  const svgOpenTag = `<g id="Glasses">`;
-  const svgCloseTag = `</g>`;
-
   const glassesOptions = [
     // GLASSES 1
     `<line x1="396.17" y1="456.66" x2="603.52" y2="456.66" style="fill:none;stroke:#f96020;stroke-miterlimit:10;stroke-width:12px" /><circle cx="366.38" cy="501.81" r="68.19" style="fill:#f96020" /><circle cx="366.37" cy="501.81" r="59.68" style="fill:#d74816" /><circle cx="650.53" cy="503.66" r="68.19" style="fill:#f96020" /><circle cx="650.53" cy="503.66" r="59.68" style="fill:#d74816" /><rect x="343.62" y="447.2" width="39.05" height="106.42" transform="translate(266.37 1111.03) rotate(-135)" style="fill:#ffa520" /><rect x="633.98" y="451.86" width="39.05" height="106.42" transform="translate(758.76 1324.3) rotate(-135)" style="fill:#ffa520" />`,
@@ -18,7 +15,8 @@ export async function getGlasses() {
   const index = getRandomIntInclusive(0, glassesOptions.length - 1);
   console.log(`  Glasses: ${index}`);
 
-  // TODO: generalize to `createSVG()` helper function
+  const svgOpenTag = `<g id="Glasses-${index + 1}">`;
+  const svgCloseTag = `</g>`;
   const glassesSVG = `${svgOpenTag}${glassesOptions[index]}${svgCloseTag}`;
 
   return glassesSVG;
