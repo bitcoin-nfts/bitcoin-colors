@@ -11,20 +11,7 @@ async function generateSVGs(total: number) {
   for (let i = 0; i < total; i++) {
     console.log("-------------------------");
     console.log("Setting up attributes...");
-    const attributes = await Promise.all([
-      generator.getBackground(),
-      generator.getBody(),
-      generator.getHead(),
-      generator.getFaceAccessory(),
-      generator.getEarrings(),
-      generator.getEars(),
-      generator.getMouth(),
-      generator.getEyebrows(),
-      generator.getGlasses(),
-      generator.getEyes(),
-      generator.getNose(),
-      generator.getHat(),
-    ]);
+    const attributes = await Promise.all([generator.getBackground(), generator.getBody(), generator.getHead(), generator.getFaceAccessory(), generator.getEarrings(), generator.getEars(), generator.getMouth(), generator.getEyebrows(), generator.getGlasses(), generator.getEyes(), generator.getNose(), generator.getHat()]);
     console.log("Generating SVG...");
 
     const bitcoinFace = {
@@ -53,4 +40,4 @@ async function generateSVGs(total: number) {
   }
 }
 
-generateSVGs(100);
+generateSVGs(1000);
