@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <g id="hat-4">
+    <path
+      d="M505.94,202.6,505.59,167a15.7,15.7,0,0,0,14.58-9.87l29.3-73.25h18.7c44.06,0,67.31,52.2,37.83,85L575.59,202.6H505.94"
+      transform="translate(-1.55 4)" style="fill:#af3271" />
+    <circle cx="504.52" cy="124.94" r="15.44" style="fill:#e9632a" />
+    <circle cx="504.52" cy="155.81" r="15.44" style="fill:#e9632a" />
+    <path
+      d="M507.52,167h-1.24a15.7,15.7,0,0,1-14.58-9.87L462.4,83.86H443.7c-44.06,0-67.31,52.2-37.83,85l30.41,33.79h69.66"
+      transform="translate(-1.55 4)" style="fill:#de2f7a" />
+    <rect x="434.73" y="206.6" width="72.03" height="30.87" style="fill:#4f4f8e" />
+    <rect x="505.94" y="202.6" width="69.66" height="30.87"
+      transform="translate(1079.98 440.07) rotate(-180)" style="fill:#532d5c" />
+    <circle cx="504.78" cy="93.8" r="15.44" style="fill:#eb6329" />
+    <path d="M506.33,105.76a15.44,15.44,0,1,1,0,30.88" transform="translate(-1.55 4)"
+      style="fill:#c84626" />
+    <path d="M506.33,136.11a15.44,15.44,0,1,1,0,30.87" transform="translate(-1.55 4)"
+      style="fill:#c84626" />
+    <rect x="434.73" y="206.6" width="69.66" height="4.75" style="fill:#e8582c" />
+    <rect x="434.73" y="235.1" width="69.66" height="4.75" style="fill:#e8582c" />
+    <rect x="434.73" y="211.09" width="69.66" height="2.64" style="fill:#f4acc5" />
+    <rect x="434.73" y="232.46" width="69.66" height="2.64" style="fill:#f4acc5" />
+    <rect x="499.64" y="218.47" width="4.75" height="9.5" style="fill:#f4acc5" />
+    <rect x="443.93" y="87.58" width="1.32" height="111.31"
+      transform="translate(77.25 437.7) rotate(-56.31)" style="fill:#e9632a" />
+    <rect x="439.18" y="106.68" width="1.32" height="99.23"
+      transform="translate(134.52 514.71) rotate(-68.96)" style="fill:#e9632a" />
+    <rect x="439.18" y="127.15" width="1.32" height="79.65"
+      transform="translate(195.33 573.85) rotate(-79.7)" style="fill:#e9632a" />
+    <rect x="505.94" y="202.6" width="69.66" height="4.75"
+      transform="translate(1079.98 413.95) rotate(-180)" style="fill:#c9481d" />
+    <rect x="505.94" y="231.1" width="69.66" height="4.75"
+      transform="translate(1079.98 470.94) rotate(-180)" style="fill:#c9481d" />
+    <rect x="505.94" y="207.09" width="69.66" height="2.64"
+      transform="translate(1079.98 420.81) rotate(-180)" style="fill:#f28db2" />
+    <rect x="505.94" y="228.46" width="69.66" height="2.64"
+      transform="translate(1079.98 463.56) rotate(-180)" style="fill:#f28db2" />
+    <rect x="505.94" y="214.47" width="4.75" height="9.5"
+      transform="translate(1015.07 442.45) rotate(-180)" style="fill:#f28db2" />
+    <rect x="511.63" y="142.57" width="111.31" height="1.32"
+      transform="translate(14.28 342.73) rotate(-33.69)" style="fill:#c84626" />
+    <rect x="522.42" y="155.63" width="99.23" height="1.32"
+      transform="translate(-19.53 219.76) rotate(-21.04)" style="fill:#c84626" />
+    <rect x="532.21" y="166.32" width="79.65" height="1.32"
+      transform="translate(-22.19 109.04) rotate(-10.31)" style="fill:#c84626" />
+    <path d="M506.33,74.1a15.44,15.44,0,1,1,0,30.87" transform="translate(-1.55 4)"
+      style="fill:#c84626" />
+    <rect x="481.4" y="24.5" width="49.87" height="49.87"
+      transform="translate(181.71 -339.55) rotate(45)" style="fill:#ea6428" />
+    <rect x="486.15" y="29.25" width="40.37" height="40.37"
+      transform="translate(181.71 -339.55) rotate(45)" style="fill:#532d5a" />
+    <circle cx="504.78" cy="53.43" r="15.44" style="fill:#ba3272" />
+    <rect x="503.6" width="2.37" height="52.24" style="fill:#ba3272" />
+    <path
+      d="M473.73,158.8,443.17,83.68H462.5l29.3,73.24a15.7,15.7,0,0,0,14.58,9.87l-.08,8.29h-8.1A26.36,26.36,0,0,1,473.73,158.8Z"
+      transform="translate(-1.55 4)" style="fill:#e9632a" />
+    <path
+      d="M538.65,158.72l30.57-75.11H549.89l-29.3,73.24A15.71,15.71,0,0,1,506,166.72l.08,8.29h8.1A26.34,26.34,0,0,0,538.65,158.72Z"
+      transform="translate(-1.55 4)" style="fill:#c84626" />
+    <rect x="472.73" y="178.1" width="30.87" height="9.5" style="fill:#f4acc5" />
+    <path
+      d="M504.39,178.1h0a0,0,0,0,1,0,0v28.5a0,0,0,0,1,0,0h0a11.87,11.87,0,0,1-11.87-11.87V190A11.87,11.87,0,0,1,504.39,178.1Z"
+      style="fill:#2d2044" />
+    <rect x="497.26" y="182.85" width="7.12" height="19" style="fill:#4f4f8e" />
+    <rect x="506.73" y="174.1" width="30.87" height="9.5"
+      transform="translate(1042.78 361.71) rotate(-180)" style="fill:#f28db2" />
+    <path
+      d="M517.81,174.1h0a0,0,0,0,1,0,0v28.5a0,0,0,0,1,0,0h0a11.87,11.87,0,0,1-11.87-11.87V186A11.87,11.87,0,0,1,517.81,174.1Z"
+      transform="translate(1022.2 380.7) rotate(-180)" style="fill:#172027" />
+    <rect x="505.67" y="178.85" width="7.12" height="19"
+      transform="translate(1016.92 380.7) rotate(-180)" style="fill:#532d5c" />
+  </g>
+</svg>

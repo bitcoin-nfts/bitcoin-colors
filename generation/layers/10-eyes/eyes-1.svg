@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <g id="eyes-1">
+    <circle cx="363.57" cy="441.83" r="93.68" style="fill:#001a1b" />
+    <circle cx="363.57" cy="441.83" r="57.99" style="fill:#efe1da" />
+    <circle cx="363.57" cy="441.83" r="40.15" style="fill:#ed7e29" />
+    <polyline points="368.03 393.26 368.03 428.94 399.25 397.72" style="fill:#efe1da" />
+    <circle cx="363.78" cy="441.68" r="67.07"
+      style="fill:none;stroke:#883a62;stroke-miterlimit:10;stroke-width:4px" />
+    <circle cx="648.94" cy="438.93" r="93.68" style="fill:#001a1b" />
+    <circle cx="648.94" cy="438.93" r="57.99" style="fill:#efe1da" />
+    <circle cx="648.94" cy="438.93" r="40.15" style="fill:#ed7e29" />
+    <polyline points="653.4 390.36 653.4 426.04 684.63 394.82" style="fill:#efe1da" />
+    <circle cx="649.15" cy="438.78" r="67.07"
+      style="fill:none;stroke:#883a62;stroke-miterlimit:10;stroke-width:4px" />
+    <path d="M553.7,432.32V380a89.59,89.59,0,0,1,89.59-89.59h16.86" transform="translate(0.28 0)"
+      style="fill:none;stroke:#e9dedb;stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px;mix-blend-mode:overlay" />
+    <path d="M545.77,432V375.9a96,96,0,0,1,96-96h18.07" transform="translate(0.28 0)"
+      style="fill:none;stroke:#e9dedb;stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px;mix-blend-mode:overlay" />
+    <path d="M528.38,432.45V368A110.38,110.38,0,0,1,638.76,257.57h20.78"
+      transform="translate(0.28 0)"
+      style="fill:none;stroke:#e9dedb;stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px;mix-blend-mode:overlay" />
+    <path d="M459.43,432.32V380a89.59,89.59,0,0,0-89.59-89.59H353" transform="translate(0.28 0)"
+      style="fill:none;stroke:#e9dedb;stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px;mix-blend-mode:overlay" />
+    <path d="M467.36,432V375.9a96,96,0,0,0-96-96H353.32" transform="translate(0.28 0)"
+      style="fill:none;stroke:#e9dedb;stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px;mix-blend-mode:overlay" />
+    <path d="M484.75,432.45V368A110.38,110.38,0,0,0,374.37,257.57H353.59"
+      transform="translate(0.28 0)"
+      style="fill:none;stroke:#e9dedb;stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px;mix-blend-mode:overlay" />
+    <polyline points="720.19 379.63 806.03 448.31 720.19 448.31" style="fill:#001a1b" />
+    <polyline points="295.05 379.63 209.21 448.31 295.05 448.31" style="fill:#001a1b" />
+  </g>
+</svg>

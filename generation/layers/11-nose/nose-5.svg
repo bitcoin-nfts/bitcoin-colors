@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <g id="nose-5">
+    <polyline points="464.53 419.86 439.16 525.62 506.81 525.62 506.81 404.19" style="fill:#f9c1c0" />
+    <polygon points="439.16 525.62 506.81 525.62 506.81 541.29 439.16 525.62" style="fill:#f9c1c0" />
+    <path d="M438.82,525.62h0c11,12.76,30.12,23.67,54.81,31.29l12.84,4V541.29Z"
+      transform="translate(0.34)" style="fill:#883a62" />
+    <polyline points="548.99 419.67 574.36 525.44 506.7 525.44 506.7 404" style="fill:#f489ae" />
+    <polygon points="574.36 525.44 506.7 525.44 506.7 541.11 574.36 525.44" style="fill:#f489ae" />
+    <path d="M574,525.44h0c-11,12.75-30.13,23.66-54.81,31.28l-12.85,4V541.11Z"
+      transform="translate(0.34)" style="fill:#4d2f47" />
+  </g>
+</svg>

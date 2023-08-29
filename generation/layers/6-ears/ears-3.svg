@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <g id="ears-3">
+    <path d="M202.3,527.79h-2.1A106.78,106.78,0,0,1,93.43,421v-64.3H359.72Z"
+      transform="translate(-1.55 4)" style="fill:#aaaecc" />
+    <path d="M808.85,527.79H811A106.78,106.78,0,0,0,917.72,421v-64.3h-224Z"
+      transform="translate(-1.55 4)" style="fill:#727fbd" />
+    <path d="M824.41,395.59a54.44,54.44,0,0,1,0,108.87" transform="translate(-1.55 4)"
+      style="fill:#4d2f47" />
+    <path d="M186.74,504.46a54.44,54.44,0,0,1,0-108.87" transform="translate(-1.55 4)"
+      style="fill:#4d2f47" />
+    <path d="M186.74,497.3a35.31,35.31,0,0,1,0-70.61" transform="translate(-1.55 4)"
+      style="fill:#727fbd" />
+    <path d="M820.21,426.69a35.31,35.31,0,0,1,0,70.61" transform="translate(-1.55 4)"
+      style="fill:#727fbd" />
+  </g>
+</svg>

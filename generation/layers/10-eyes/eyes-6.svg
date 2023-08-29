@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <g id="eyes-6">
+    <rect x="418.69" y="406.92" width="87.66" height="19.48" style="fill:#fa8cb2" />
+    <circle cx="340.77" cy="416.66" r="87.66" style="fill:#4d2f47" />
+    <circle cx="340.77" cy="416.66" r="68.18" style="fill:#ed7e29" />
+    <rect x="262.85" y="406.92" width="155.84" height="19.48" style="fill:#001a1b" />
+    <rect x="507.06" y="406.95" width="87.66" height="19.48"
+      transform="translate(1101.12 833.38) rotate(-180)" style="fill:#fa8cb2" />
+    <circle cx="671.98" cy="416.69" r="87.66" style="fill:#001a1b" />
+    <circle cx="671.98" cy="416.69" r="68.18" style="fill:#ed7e29" />
+    <rect x="594.72" y="406.95" width="155.84" height="19.48"
+      transform="translate(1344.62 833.38) rotate(-180)" style="fill:#001a1b" />
+  </g>
+</svg>

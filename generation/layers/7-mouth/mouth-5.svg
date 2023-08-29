@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <g id="mouth-5">
+    <polyline points="528.78 551.11 214.79 551.11 336.9 673.22 528.78 673.22 528.78 551.11"
+      style="fill:#4a2955" />
+    <rect x="441.56" y="562.74" width="23.26" height="29.07" style="fill:#fdf6de" />
+    <rect x="470.63" y="562.74" width="23.26" height="29.07" style="fill:#fdf6de" />
+    <polygon points="406.67 603.44 429.93 562.74 429.93 562.74 406.67 562.74 406.67 603.44"
+      style="fill:#fdf6de" />
+    <polygon points="331.08 664.5 389.23 562.74 389.23 562.74 331.08 562.74 331.08 664.5"
+      style="fill:#fdf6de" />
+    <polygon points="302.84 591.81 319.45 562.74 319.45 562.74 302.84 562.74 302.84 591.81"
+      style="fill:#fdf6de" />
+    <polyline points="480.08 550.62 794.06 550.62 671.96 672.72 480.08 672.72 480.08 550.62"
+      style="fill:#161f26" />
+    <rect x="545.7" y="562.24" width="23.26" height="29.07"
+      transform="translate(1112.99 1153.56) rotate(-180)" style="fill:#fdf6de" />
+    <rect x="516.62" y="562.24" width="23.26" height="29.07"
+      transform="translate(1054.85 1153.56) rotate(-180)" style="fill:#fdf6de" />
+    <rect x="487.55" y="562.24" width="23.26" height="29.07"
+      transform="translate(996.7 1153.56) rotate(-180)" style="fill:#fdf6de" />
+    <polygon points="602.18 602.95 578.92 562.25 578.92 562.25 602.18 562.25 602.18 602.95"
+      style="fill:#fdf6de" />
+    <polygon points="677.77 664 619.63 562.25 619.63 562.25 677.77 562.25 677.77 664"
+      style="fill:#fdf6de" />
+    <polygon points="706.01 591.32 689.4 562.25 689.4 562.25 706.01 562.25 706.01 591.32"
+      style="fill:#fdf6de" />
+    <path d="M443.22,676.13a61.06,61.06,0,1,1,122.11,0" transform="translate(-1.66 0)"
+      style="fill:#e63580" />
+  </g>
+</svg>

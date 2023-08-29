@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <g id="eyes-2">
+    <circle cx="631.63" cy="415.78" r="67.98" style="fill:#ffa520" />
+    <circle cx="631.63" cy="415.78" r="40.79" style="fill:#001a1b" />
+    <circle cx="386.89" cy="415.78" r="67.98" style="fill:#f7d53a" />
+    <circle cx="386.89" cy="415.78" r="40.79" style="fill:#361a11" />
+    <path
+      d="M468.2,334.2l15.6,10.4A56.56,56.56,0,0,1,509,391.67h0c0,45.18-50.35,72.12-87.94,47.06L264.25,334.2"
+      transform="translate(0.28 0)" style="fill:#631809" />
+    <path
+      d="M549.78,334.2l-15.6,10.4A56.56,56.56,0,0,0,509,391.67h0c0,45.18,50.35,72.12,87.94,47.06L753.72,334.2"
+      transform="translate(0.28 0)" style="fill:#361a11" />
+    <path d="M292,417a96.71,96.71,0,1,0,193.41,0" transform="translate(0.28 0)"
+      style="fill:none;stroke:#631809;stroke-miterlimit:10;stroke-width:3px" />
+    <path d="M388.65,531.31a96.71,96.71,0,0,0,96.71-96.7" transform="translate(0.28 0)"
+      style="fill:none;stroke:#631809;stroke-miterlimit:10;stroke-width:3px" />
+    <path
+      d="M633.4,517.6a98.46,98.46,0,0,1-98.35-98.35h3.29a95.06,95.06,0,1,0,190.12,0h3.29A98.46,98.46,0,0,1,633.4,517.6Z"
+      transform="translate(0.28 0)" style="fill:#361a11" />
+    <path d="M633.4,535.19a98.45,98.45,0,0,1-98.35-98.34h3.29a95.16,95.16,0,0,0,95.06,95.06Z"
+      transform="translate(0.28 0)" style="fill:#361a11" />
+  </g>
+</svg>

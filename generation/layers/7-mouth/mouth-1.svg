@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <g id="mouth-1">
+    <path
+      d="M504.57,545.25H236.78c-25.78,0-40.38,29.55-24.72,50l35.83,46.85a64.57,64.57,0,0,0,51.31,25.36H504.57"
+      transform="translate(0.28 0)" style="fill:#883a62" />
+    <path
+      d="M483,545.25H775.4c25.78,0,40.38,29.55,24.72,50l-35.83,46.85A64.57,64.57,0,0,1,713,667.49H483"
+      transform="translate(0.28 0)" style="fill:#883a62" />
+    <rect x="267.55" y="570.35" width="474.59" height="64.72" style="fill:#542f5f" />
+    <rect x="505.9" y="556.65" width="247.44" height="37.12" style="fill:#172027" />
+    <path
+      d="M712.79,556.31h0a15.47,15.47,0,0,1,15.47,15.47v21.65a0,0,0,0,1,0,0H697.33a0,0,0,0,1,0,0V571.78A15.47,15.47,0,0,1,712.79,556.31Z"
+      style="fill:#f489ae" />
+    <rect x="505.56" y="624.36" width="204.14" height="24.74" style="fill:#172027" />
+    <rect x="654.03" y="624.36" width="30.93" height="24.74" style="fill:#f489ae" />
+    <path d="M691.21,594.11v55.34h37.12A52.45,52.45,0,0,0,709.23,609Z" transform="translate(0.28 0)"
+      style="fill:#f489ae" />
+    <path
+      d="M740.7,575.21v61.86l13.35-11.13a66,66,0,0,0,23.77-50.73h0a18.56,18.56,0,0,0-18.56-18.56h0A18.56,18.56,0,0,0,740.7,575.21Z"
+      transform="translate(0.28 0)" style="fill:#f489ae" />
+    <rect x="257.84" y="556.31" width="247.44" height="37.12"
+      transform="translate(763.4 1149.74) rotate(-180)" style="fill:#172027" />
+    <path
+      d="M282.93,556h30.93a0,0,0,0,1,0,0v21.65a15.47,15.47,0,0,1-15.47,15.47h0a15.47,15.47,0,0,1-15.47-15.47V556a0,0,0,0,1,0,0Z"
+      transform="translate(597.06 1149.05) rotate(-180)" style="fill:#f9c1c0" />
+    <rect x="301.49" y="624.01" width="204.14" height="24.74"
+      transform="translate(807.39 1272.77) rotate(-180)" style="fill:#172027" />
+    <rect x="326.23" y="624.01" width="30.93" height="24.74"
+      transform="translate(683.67 1272.77) rotate(-180)" style="fill:#f9c1c0" />
+    <path d="M319.7,593.77V649.1H282.58a52.47,52.47,0,0,1,19.1-40.48Z" transform="translate(0.28 0)"
+      style="fill:#f9c1c0" />
+    <path
+      d="M270.21,574.87v61.86L256.86,625.6a66,66,0,0,1-23.77-50.73h0a18.56,18.56,0,0,1,18.56-18.56h0A18.56,18.56,0,0,1,270.21,574.87Z"
+      transform="translate(0.28 0)" style="fill:#f9c1c0" />
+    <path
+      d="M329.67,556H360.6a0,0,0,0,1,0,0v21.65a15.47,15.47,0,0,1-15.47,15.47h0a15.47,15.47,0,0,1-15.47-15.47V556A0,0,0,0,1,329.67,556Z"
+      transform="translate(690.54 1149.05) rotate(-180)" style="fill:#f9c1c0" />
+    <rect x="372.97" y="624.01" width="30.93" height="24.74"
+      transform="translate(777.15 1272.77) rotate(-180)" style="fill:#f9c1c0" />
+    <path
+      d="M375.14,556h30.93a0,0,0,0,1,0,0v21.65a15.47,15.47,0,0,1-15.47,15.47h0a15.47,15.47,0,0,1-15.47-15.47V556a0,0,0,0,1,0,0Z"
+      transform="translate(781.48 1149.05) rotate(-180)" style="fill:#f9c1c0" />
+    <rect x="418.44" y="624.01" width="30.93" height="24.74"
+      transform="translate(868.09 1272.77) rotate(-180)" style="fill:#f9c1c0" />
+    <path
+      d="M423.15,556h30.93a0,0,0,0,1,0,0v21.65a15.47,15.47,0,0,1-15.47,15.47h0a15.47,15.47,0,0,1-15.47-15.47V556A0,0,0,0,1,423.15,556Z"
+      transform="translate(877.5 1149.05) rotate(-180)" style="fill:#f9c1c0" />
+    <rect x="466.45" y="624.01" width="30.93" height="24.74"
+      transform="translate(964.1 1272.77) rotate(-180)" style="fill:#f9c1c0" />
+    <path
+      d="M473.64,556h30.93a0,0,0,0,1,0,0v21.65a15.47,15.47,0,0,1-15.47,15.47h0a15.47,15.47,0,0,1-15.47-15.47V556A0,0,0,0,1,473.64,556Z"
+      transform="translate(978.48 1149.05) rotate(-180)" style="fill:#f9c1c0" />
+    <rect x="513.19" y="624.7" width="30.93" height="24.74"
+      transform="translate(1057.58 1274.15) rotate(-180)" style="fill:#f489ae" />
+    <rect x="559.93" y="624.7" width="30.93" height="24.74"
+      transform="translate(1151.06 1274.15) rotate(-180)" style="fill:#f489ae" />
+    <rect x="605.4" y="624.7" width="30.93" height="24.74"
+      transform="translate(1242 1274.15) rotate(-180)" style="fill:#f489ae" />
+    <rect x="653.41" y="624.7" width="30.93" height="24.74"
+      transform="translate(1338.02 1274.15) rotate(-180)" style="fill:#f489ae" />
+    <path
+      d="M509.43,556h30.93a0,0,0,0,1,0,0v21.65a15.47,15.47,0,0,1-15.47,15.47h0a15.47,15.47,0,0,1-15.47-15.47V556a0,0,0,0,1,0,0Z"
+      transform="translate(1050.07 1149.05) rotate(-180)" style="fill:#f489ae" />
+    <path
+      d="M554.9,556h30.93a0,0,0,0,1,0,0v21.65a15.47,15.47,0,0,1-15.47,15.47h0a15.47,15.47,0,0,1-15.47-15.47V556A0,0,0,0,1,554.9,556Z"
+      transform="translate(1141.02 1149.05) rotate(-180)" style="fill:#f489ae" />
+    <path
+      d="M602.91,556h30.93a0,0,0,0,1,0,0v21.65a15.47,15.47,0,0,1-15.47,15.47h0a15.47,15.47,0,0,1-15.47-15.47V556A0,0,0,0,1,602.91,556Z"
+      transform="translate(1237.03 1149.05) rotate(-180)" style="fill:#f489ae" />
+    <path
+      d="M653.41556h30.93a0,0,0,0,1,0,0v21.65a15.47,15.47,0,0,1-15.47,15.47h0a15.47,15.47,0,0,1-15.47-15.47V556a0,0,0,0,1,0,0Z"
+      transform="translate(1338.02 1149.05) rotate(-180)" style="fill:#f489ae" />
+  </g>
+</svg>

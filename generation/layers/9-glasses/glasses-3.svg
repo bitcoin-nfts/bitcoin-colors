@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <g id="glasses-3">
+    <path
+      d="M797.87,460.37A123.76,123.76,0,0,1,672.46,584.13c-68-.88-122.13-57.58-122.13-125.6h0a39.41,39.41,0,0,0-39.41-39.41h-1.85"
+      transform="translate(0.28)"
+      style="fill:none;stroke:#070707;stroke-miterlimit:10;stroke-width:9px" />
+    <path
+      d="M220.27,460.37A123.77,123.77,0,0,0,345.69,584.13c68-.88,122.12-57.58,122.12-125.6h0a39.41,39.41,0,0,1,39.42-39.41h1.84"
+      transform="translate(0.28)"
+      style="fill:none;stroke:#070707;stroke-miterlimit:10;stroke-width:9px" />
+    <path
+      d="M220.55,460.37H468.09a0,0,0,0,1,0,0v0A123.77,123.77,0,0,1,344.32,584.14h0A123.77,123.77,0,0,1,220.55,460.37v0A0,0,0,0,1,220.55,460.37Z"
+      style="fill:#8e97c4;opacity:0.5700000000000001;mix-blend-mode:color-dodge" />
+    <path
+      d="M549.46,459.23H797a0,0,0,0,1,0,0v0A123.77,123.77,0,0,1,673.23,583h0A123.77,123.77,0,0,1,549.46,459.23v0A0,0,0,0,1,549.46,459.23Z"
+      style="fill:#8e97c4;opacity:0.5700000000000001;mix-blend-mode:color-dodge" />
+  </g>
+</svg>

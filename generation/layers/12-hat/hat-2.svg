@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <g id="hat-2">
+    <path d="M663.88,240.76l74.57-93.92v29.34c0,20.79-16.5,40.2-44,51.73Z"
+      transform="translate(0.28 0)" style="fill:#df4624" />
+    <path d="M361.53,239.64,287,145.73v29.34c0,20.78,16.49,40.19,44,51.72Z"
+      transform="translate(0.28 0)" style="fill:#f96020" />
+    <path d="M487.19,192.18V67l-8.8,5.54c-50.05,31.52-50.05,82.62,0,114.14Z"
+      transform="translate(0.28 0)" style="fill:#ba3272" />
+    <polyline points="487.47 192.18 388.05 113.92 388.05 160.88 487.47 239.14" style="fill:#8e97c4" />
+    <path d="M387.77,160.88V20L357.93,57.58c-29.41,37.05-44.72,77.9-44.72,119.32v46.59H472.57"
+      transform="translate(0.28 0)" style="fill:#ba3272" />
+    <path d="M538.22,193.3V68.07L547,73.62c50,31.51,50,82.62,0,114.13Z"
+      transform="translate(0.28 0)" style="fill:#532d5a" />
+    <polyline points="538.5 193.3 637.92 115.03 637.92 161.99 538.5 240.25" style="fill:#4f4f8e" />
+    <path d="M637.65,162V21.12L667.48,58.7c29.42,37,44.73,77.9,44.73,119.32V224.6H554.37"
+      transform="translate(0.28 0)" style="fill:#532d5a" />
+    <path d="M487.19,192.18,412.63,98.26v29.35c0,20.78,16.49,40.19,43.95,51.72Z"
+      transform="translate(0.28 0)" style="fill:#f96020" />
+    <path d="M538.22,193.3l74.57-93.92v29.34c0,20.79-16.49,40.2-44,51.72Z"
+      transform="translate(0.28 0)" style="fill:#df4624" />
+    <circle cx="513.65" cy="190.25" r="54.63" style="fill:#f96020" />
+    <circle cx="513.64" cy="190.25" r="47.82" style="fill:#d74816" />
+  </g>
+</svg>

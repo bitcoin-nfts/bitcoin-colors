@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <g id="head-11">
+    <rect x="161.72" y="454.29" width="349.08" height="234.25" style="fill:#dbb9be" />
+    <polyline points="530.98 682.74 114.17 682.74 276.26 844.83 530.98 844.83 530.98 682.74"
+      style="fill:#d7bbbd" />
+    <path d="M162.39,453.84H509.73V114.22h-9.36A153.88,153.88,0,0,0,378.62,174Z"
+      transform="translate(0.34)" style="fill:#efe1da" />
+    <rect x="492.49" y="145.09" width="4.29" height="262.44" style="fill:#dbb9be" />
+    <rect x="418.82" y="229.92" width="4.29" height="177.7"
+      transform="translate(-106.12 293.4) rotate(-34.38)" style="fill:#dbb9be" />
+    <circle cx="440.6" cy="222.28" r="15.44" style="fill:#fbf5de" />
+    <circle cx="409.72" cy="191.41" r="7.72" style="fill:#fbf5de" />
+    <circle cx="425.16" cy="253.15" r="7.72" style="fill:#fbf5de" />
+    <circle cx="363.41" cy="284.03" r="7.72" style="fill:#fbf5de" />
+    <rect x="506.09" y="453.42" width="349.08" height="234.25"
+      transform="translate(1361.6 1141.08) rotate(-180)" style="fill:#dbb9be" />
+    <polyline points="486.25 682.08 903.06 682.08 740.97 844.17 486.25 844.17 486.25 682.08"
+      style="fill:#d7bbbd" />
+    <path d="M854.17,453.18H506.82V113.56h9.36a153.88,153.88,0,0,1,121.75,59.78Z"
+      transform="translate(0.34)" style="fill:#efe1da" />
+    <rect x="520.46" y="144.43" width="4.29" height="262.44" style="fill:#dbb9be" />
+    <rect x="506.74" y="315.96" width="177.7" height="4.29"
+      transform="translate(-2.93 630.02) rotate(-55.62)" style="fill:#dbb9be" />
+    <circle cx="576.63" cy="221.62" r="15.44" style="fill:#fbf5de" />
+    <circle cx="607.51" cy="190.75" r="7.72" style="fill:#fbf5de" />
+    <circle cx="592.07" cy="252.5" r="7.72" style="fill:#fbf5de" />
+    <circle cx="653.82" cy="283.37" r="7.72" style="fill:#fbf5de" />
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <g id="head-2">
+    <path
+      d="M507.72,158H428.61A204.76,204.76,0,0,0,247,268.29L100.88,549.2,326.59,810.56a239.35,239.35,0,0,0,181.13,82.9h0Z"
+      transform="translate(0.28 0)" style="fill:#8e97c4" />
+    <path
+      d="M507.72,158h79.11A204.76,204.76,0,0,1,768.5,268.29L914.57,549.2,688.86,810.56a239.36,239.36,0,0,1-181.14,82.9h0Z"
+      transform="translate(0.28 0)" style="fill:#4f4f8e" />
+    <rect x="171" y="655.35" width="236.25" height="3.26"
+      transform="translate(-379.6 396.87) rotate(-45)" style="fill:#b2bcdf" />
+    <rect x="229.15" y="641.52" width="190.99" height="3.26"
+      transform="translate(-359.41 417.93) rotate(-45)" style="fill:#b2bcdf" />
+    <rect x="269.15" y="646.94" width="132.7" height="3.26"
+      transform="translate(-360.07 427.19) rotate(-45)" style="fill:#b2bcdf" />
+    <rect x="217.53" y="687.35" width="259.26" height="3.26"
+      transform="translate(-385.23 447.27) rotate(-45)" style="fill:#b2bcdf" />
+    <rect x="253.09" y="730.47" width="175.65" height="3.26"
+      transform="translate(-417.55 455.49) rotate(-45)" style="fill:#b2bcdf" />
+    <rect x="277.52" y="741.32" width="194.06" height="3.26"
+      transform="translate(-415.37 482.45) rotate(-45)" style="fill:#b2bcdf" />
+    <rect x="84.57" y="546.06" width="252.35" height="3.26"
+      transform="translate(-325.28 309.44) rotate(-45)" style="fill:#b2bcdf" />
+    <path
+      d="M212.74,517.64l-2.35-2.27c6.4-6.62,62.69-64.8,67.15-67l1.47,2.91C275.72,453.05,237.57,491.94,212.74,517.64Z"
+      transform="translate(0.28 0)" style="fill:#b2bcdf" />
+    <rect x="213.42" y="449.52" width="83.61" height="3.26"
+      transform="translate(-243.98 312.61) rotate(-45)" style="fill:#b2bcdf" />
+    <rect x="122.25" y="452.23" width="180.25" height="3.26"
+      transform="translate(-258.45 283.11) rotate(-45)" style="fill:#b2bcdf" />
+    <rect x="210.94" y="396.64" width="59.83" height="3.26"
+      transform="translate(-210.8 286.96) rotate(-45)" style="fill:#b2bcdf" />
+    <rect x="723.29" y="538.59" width="3.26" height="236.25"
+      transform="translate(-251.77 704.94) rotate(-45)" style="fill:#7272ae" />
+    <rect x="687.76" y="547.39" width="3.26" height="190.99"
+      transform="translate(-252.39 675.77) rotate(-45)" style="fill:#7272ae" />
+    <rect x="676.91" y="581.96" width="3.26" height="132.7"
+      transform="translate(-259.4 669.69) rotate(-45)" style="fill:#7272ae" />
+    <rect x="665.25" y="559.08" width="3.26" height="259.26"
+      transform="translate(-291.39 673.28) rotate(-45)" style="fill:#7272ae" />
+    <rect x="671.49" y="644" width="3.26" height="175.65"
+      transform="translate(-320.05 690.32) rotate(-45)" style="fill:#7272ae" />
+    <rect x="637.86" y="645.65" width="3.26" height="194.06"
+      transform="translate(-337.57 669.72) rotate(-45)" style="fill:#7272ae" />
+    <rect x="801.66" y="421.25" width="3.26" height="252.35"
+      transform="translate(-151.53 728.35) rotate(-45)" style="fill:#7272ae" />
+    <path
+      d="M801.3,517.37c-24.83-25.7-63-64.59-66.27-66.39l1.46-2.91c4.46,2.23,60.75,60.41,67.16,67Z"
+      transform="translate(0.28 0)" style="fill:#7272ae" />
+    <rect x="757.18" y="409.08" width="3.26" height="83.61"
+      transform="translate(-96.29 668.63) rotate(-45)" style="fill:#7272ae" />
+    <rect x="800.03" y="363.47" width="3.26" height="180.25"
+      transform="translate(-85.66 699.72) rotate(-45)" style="fill:#7272ae" />
+    <rect x="771.56" y="368.09" width="3.26" height="59.83"
+      transform="translate(-54.69 663.3) rotate(-45)" style="fill:#7272ae" />
+  </g>
+</svg>

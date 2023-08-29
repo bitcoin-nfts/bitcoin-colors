@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <g id="mouth-2">
+    <path d="M319.44,644.51h0a298.58,298.58,0,0,0,171.25,54h13.83v-54" transform="translate(0.28 0)"
+      style="fill:#ba3d11" />
+    <path d="M690.74,644.23h0a298.61,298.61,0,0,1-171.26,54H505.65v-54"
+      transform="translate(0.28 0)" style="fill:#a31905" />
+    <polygon points="504.8 613.66 481.66 590.53 312 644.51 504.8 644.51 504.8 613.66"
+      style="fill:#6c1908" />
+    <polygon points="505.93 613.38 529.07 590.25 698.73 644.23 505.93 644.23 505.93 613.38"
+      style="fill:#3e1b11" />
+  </g>
+</svg>

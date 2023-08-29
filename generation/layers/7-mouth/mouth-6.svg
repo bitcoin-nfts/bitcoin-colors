@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <g id="mouth-6">
+    <rect x="317.45" y="553.94" width="214.26" height="100.83" style="fill:#fa8cb2" />
+    <rect x="342.66" y="566.54" width="189.06" height="75.62" style="fill:#efe1da" />
+    <rect x="367.87" y="566.54" width="12.6" height="75.62" style="fill:#001a1b" />
+    <rect x="405.68" y="566.54" width="12.6" height="75.62" style="fill:#001a1b" />
+    <rect x="443.52" y="566.5" width="12.6" height="75.62" style="fill:#001a1b" />
+    <rect x="481.33" y="566.5" width="12.6" height="75.62" style="fill:#001a1b" />
+    <rect x="501.72" y="549.98" width="195.45" height="100.83"
+      transform="translate(1197.35 1204.78) rotate(-180)" style="fill:#f46461" />
+    <rect x="495.41" y="562.58" width="176.56" height="75.62"
+      transform="translate(1165.84 1204.78) rotate(-180)" style="fill:#efe1da" />
+    <rect x="634.16" y="562.58" width="12.6" height="75.62"
+      transform="translate(1279.37 1204.78) rotate(-180)" style="fill:#001a1b" />
+    <rect x="596.35" y="562.58" width="12.6" height="75.62"
+      transform="translate(1203.75 1204.78) rotate(-180)" style="fill:#001a1b" />
+    <rect x="558.5" y="562.54" width="12.6" height="75.62"
+      transform="translate(1128.06 1204.7) rotate(-180)" style="fill:#001a1b" />
+    <rect x="520.69" y="562.54" width="12.6" height="75.62"
+      transform="translate(1052.44 1204.7) rotate(-180)" style="fill:#001a1b" />
+    <rect x="329.85" y="560.24" width="353.27" height="44.16"
+      style="fill:#883a62;opacity:0.30000000000000004;mix-blend-mode:multiply" />
+  </g>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <g id="eyes-9">
+    <polyline points="406.74 531.45 329.95 454.66 406.06 454.66" style="fill:#e1d4d1" />
+    <polyline points="609.46 531.45 686.25 454.66 609.06 454.66" style="fill:#aea4b2" />
+    <path d="M773.72,413a85.24,85.24,0,1,0-170.48,0" transform="translate(0.34)"
+      style="fill:#959acc" />
+    <circle cx="668.36" cy="413.04" r="64.79" style="fill:#727fbd" />
+    <circle cx="667.27" cy="413.04" r="25.85" style="fill:#213f7d" />
+    <polyline points="648.81 394.58 611.88 424.12 648.81 424.12" style="fill:#213f7d" />
+    <circle cx="667.27" cy="413.04" r="18.47" style="fill:#131640" />
+    <path d="M581.29,429.05V368.69A103.31,103.31,0,0,1,684.6,265.38h19.45"
+      transform="translate(0.34)"
+      style="fill:none;stroke:#e9dedb;stroke-linecap:round;stroke-miterlimit:10;opacity:0.49;mix-blend-mode:overlay" />
+    <path d="M497.89,213.26" transform="translate(0.34)" style="fill:#f1f5fa" />
+    <path d="M241.8,413a85.25,85.25,0,0,1,170.49,0" transform="translate(0.34)" style="fill:#d0bac3" />
+    <circle cx="347.84" cy="413.04" r="64.79" style="fill:#aaaecc" />
+    <polyline points="365.88 394.58 402.81 424.12 365.88 424.12" style="fill:#727fbd" />
+    <circle cx="347.41" cy="413.04" r="25.85" style="fill:#727fbd" />
+    <circle cx="347.41" cy="413.04" r="18.47" style="fill:#213f7d" />
+    <circle cx="339.93" cy="409.35" r="4.39" style="fill:#eff3f9" />
+    <path d="M431.26,427.83V367.47A103.3,103.3,0,0,0,328,264.16H308.51" transform="translate(0.34)"
+      style="fill:none;stroke:#e9dedb;stroke-linecap:round;stroke-miterlimit:10;mix-blend-mode:overlay" />
+    <path d="M253.74,412.68a78.86,78.86,0,1,1,157.71,0" transform="translate(0.34)"
+      style="fill:none;stroke:#e9dedb;stroke-linecap:round;stroke-miterlimit:10;mix-blend-mode:overlay" />
+    <path d="M268.9,413.43a70.69,70.69,0,1,1,141.37,0" transform="translate(0.34)"
+      style="fill:none;stroke:#e9dedb;stroke-linecap:round;stroke-miterlimit:10;mix-blend-mode:overlay" />
+    <path d="M296.55,413.15a57.12,57.12,0,0,1,114.24,0" transform="translate(0.34)"
+      style="fill:none;stroke:#e9dedb;stroke-linecap:round;stroke-miterlimit:10;opacity:0.58;mix-blend-mode:overlay" />
+    <path d="M760.73,413.67a78.86,78.86,0,0,0-157.72,0" transform="translate(0.34)"
+      style="fill:none;stroke:#e9dedb;stroke-linecap:round;stroke-miterlimit:10;opacity:0.49;mix-blend-mode:overlay" />
+    <path d="M745.56,414.42a70.69,70.69,0,0,0-141.37,0" transform="translate(0.34)"
+      style="fill:none;stroke:#e9dedb;stroke-linecap:round;stroke-miterlimit:10;opacity:0.49;mix-blend-mode:overlay" />
+    <path d="M717.91,414.15a57.12,57.12,0,1,0-114.24,0" transform="translate(0.34)"
+      style="fill:none;stroke:#e9dedb;stroke-linecap:round;stroke-miterlimit:10;opacity:0.49;mix-blend-mode:overlay" />
+    <path d="M572.2,428V363.34A110.66,110.66,0,0,1,682.87,252.68h20.84" transform="translate(0.34)"
+      style="fill:none;stroke:#e9dedb;stroke-linecap:round;stroke-miterlimit:10;opacity:0.49;mix-blend-mode:overlay" />
+    <path d="M552.15,428.56V354.18A127.29,127.29,0,0,1,679.43,226.9h24" transform="translate(0.34)"
+      style="fill:none;stroke:#e9dedb;stroke-linecap:round;stroke-miterlimit:10;opacity:0.49;mix-blend-mode:overlay" />
+    <path d="M440.4,427.44V362.77A110.65,110.65,0,0,0,329.74,252.11H308.9"
+      transform="translate(0.34)"
+      style="fill:none;stroke:#e9dedb;stroke-linecap:round;stroke-miterlimit:10;mix-blend-mode:overlay" />
+    <path d="M460.46,428V353.61A127.29,127.29,0,0,0,333.18,226.33h-24" transform="translate(0.34)"
+      style="fill:none;stroke:#e9dedb;stroke-linecap:round;stroke-miterlimit:10;mix-blend-mode:overlay" />
+    <circle cx="659.4" cy="409.28" r="4.39" style="fill:#eff3f9" />
+  </g>
+</svg>
